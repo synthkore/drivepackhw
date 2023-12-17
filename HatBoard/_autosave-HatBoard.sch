@@ -1,0 +1,1942 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2025 1950
+Connection ~ 2025 2425
+Connection ~ 2075 4100
+Connection ~ 2250 7000
+Connection ~ 3475 1950
+Connection ~ 3475 2425
+Connection ~ 3825 4100
+Connection ~ 4025 7000
+Connection ~ 6225 2075
+Connection ~ 6225 4250
+Connection ~ 6875 3175
+Connection ~ 6875 5350
+Connection ~ 7975 2075
+Connection ~ 7975 4250
+Connection ~ 8825 2075
+Connection ~ 8825 4250
+Connection ~ 9800 7375
+Connection ~ 10275 7375
+Connection ~ 10500 4775
+Connection ~ 10900 3250
+Connection ~ 10900 6675
+Connection ~ 11250 7375
+Connection ~ 11725 7375
+Connection ~ 12075 3250
+Connection ~ 13425 8425
+Connection ~ 13450 7225
+Connection ~ 14600 1975
+Connection ~ 14600 2100
+Connection ~ 14600 2225
+Connection ~ 14600 2350
+Connection ~ 14600 2475
+Connection ~ 14600 2600
+Connection ~ 14600 2725
+Connection ~ 14600 2850
+Connection ~ 14825 8425
+Connection ~ 14875 7225
+NoConn ~ 1925 4400
+NoConn ~ 1925 4500
+NoConn ~ 1925 4600
+NoConn ~ 1925 4700
+NoConn ~ 1925 5800
+NoConn ~ 1925 6100
+NoConn ~ 1925 6200
+NoConn ~ 1925 6300
+NoConn ~ 1925 6400
+NoConn ~ 1925 6500
+NoConn ~ 1925 6600
+NoConn ~ 1925 6700
+NoConn ~ 1925 6800
+NoConn ~ 3700 4300
+NoConn ~ 3700 4400
+NoConn ~ 3700 4500
+NoConn ~ 3700 4600
+NoConn ~ 3700 4700
+NoConn ~ 3700 4800
+NoConn ~ 3700 6200
+NoConn ~ 3700 6300
+NoConn ~ 3700 6400
+NoConn ~ 3700 6500
+NoConn ~ 3700 6600
+NoConn ~ 3700 6700
+NoConn ~ 3700 6800
+NoConn ~ 7125 2675
+NoConn ~ 7125 2775
+NoConn ~ 7125 2875
+NoConn ~ 7125 2975
+NoConn ~ 7125 4950
+NoConn ~ 7125 5050
+NoConn ~ 7125 5150
+NoConn ~ 7875 2775
+NoConn ~ 7875 2875
+NoConn ~ 7875 2975
+NoConn ~ 7875 3075
+NoConn ~ 7875 5050
+NoConn ~ 7875 5150
+NoConn ~ 7875 5250
+Wire Wire Line
+	1750 1950 2025 1950
+Wire Wire Line
+	1750 2050 1750 1950
+Wire Wire Line
+	1750 2425 1750 2350
+Wire Wire Line
+	1925 4100 2075 4100
+Wire Wire Line
+	1925 4200 2075 4200
+Wire Wire Line
+	1925 4300 2250 4300
+Wire Wire Line
+	1925 4900 2250 4900
+Wire Wire Line
+	1925 5100 2250 5100
+Wire Wire Line
+	1925 5200 2250 5200
+Wire Wire Line
+	1925 6000 2250 6000
+Wire Wire Line
+	1925 7000 2250 7000
+Wire Wire Line
+	2025 1725 2025 1950
+Wire Wire Line
+	2025 1950 2300 1950
+Wire Wire Line
+	2025 2050 2025 1950
+Wire Wire Line
+	2025 2350 2025 2425
+Wire Wire Line
+	2025 2425 1750 2425
+Wire Wire Line
+	2025 2450 2025 2425
+Wire Wire Line
+	2075 3550 2075 4100
+Wire Wire Line
+	2075 4200 2075 4100
+Wire Wire Line
+	2250 4800 1925 4800
+Wire Wire Line
+	2250 5000 1925 5000
+Wire Wire Line
+	2250 5300 1925 5300
+Wire Wire Line
+	2250 5400 1925 5400
+Wire Wire Line
+	2250 5500 1925 5500
+Wire Wire Line
+	2250 5600 1925 5600
+Wire Wire Line
+	2250 5700 1925 5700
+Wire Wire Line
+	2250 5900 1925 5900
+Wire Wire Line
+	2250 6900 1925 6900
+Wire Wire Line
+	2250 7000 2250 6900
+Wire Wire Line
+	2250 7150 2250 7000
+Wire Wire Line
+	2300 2050 2300 1950
+Wire Wire Line
+	2300 2425 2025 2425
+Wire Wire Line
+	2300 2425 2300 2350
+Wire Wire Line
+	3200 1950 3475 1950
+Wire Wire Line
+	3200 2050 3200 1950
+Wire Wire Line
+	3200 2425 3200 2350
+Wire Wire Line
+	3475 1750 3475 1950
+Wire Wire Line
+	3475 1950 3750 1950
+Wire Wire Line
+	3475 2050 3475 1950
+Wire Wire Line
+	3475 2350 3475 2425
+Wire Wire Line
+	3475 2425 3200 2425
+Wire Wire Line
+	3475 2450 3475 2425
+Wire Wire Line
+	3700 4100 3825 4100
+Wire Wire Line
+	3700 4200 3825 4200
+Wire Wire Line
+	3700 4900 4025 4900
+Wire Wire Line
+	3700 5100 4025 5100
+Wire Wire Line
+	3700 5200 4025 5200
+Wire Wire Line
+	3700 5800 4025 5800
+Wire Wire Line
+	3700 6000 4025 6000
+Wire Wire Line
+	3700 6100 4025 6100
+Wire Wire Line
+	3700 7000 4025 7000
+Wire Wire Line
+	3750 2050 3750 1950
+Wire Wire Line
+	3750 2425 3475 2425
+Wire Wire Line
+	3750 2425 3750 2350
+Wire Wire Line
+	3825 3550 3825 4100
+Wire Wire Line
+	3825 4100 3825 4200
+Wire Wire Line
+	4025 5000 3700 5000
+Wire Wire Line
+	4025 5300 3700 5300
+Wire Wire Line
+	4025 5400 3700 5400
+Wire Wire Line
+	4025 5500 3700 5500
+Wire Wire Line
+	4025 5600 3700 5600
+Wire Wire Line
+	4025 5700 3700 5700
+Wire Wire Line
+	4025 5900 3700 5900
+Wire Wire Line
+	4025 6900 3700 6900
+Wire Wire Line
+	4025 6900 4025 7000
+Wire Wire Line
+	4025 7000 4025 7150
+Wire Wire Line
+	6225 2000 6225 2075
+Wire Wire Line
+	6225 2075 6225 2125
+Wire Wire Line
+	6225 2425 6225 2475
+Wire Wire Line
+	6225 4175 6225 4250
+Wire Wire Line
+	6225 4250 6225 4300
+Wire Wire Line
+	6225 4600 6225 4650
+Wire Wire Line
+	6875 3075 6875 3175
+Wire Wire Line
+	6875 3175 6875 3475
+Wire Wire Line
+	6875 5250 6875 5350
+Wire Wire Line
+	6875 5350 6875 5650
+Wire Wire Line
+	7125 2075 6225 2075
+Wire Wire Line
+	7125 2175 6925 2175
+Wire Wire Line
+	7125 2275 6925 2275
+Wire Wire Line
+	7125 2375 6925 2375
+Wire Wire Line
+	7125 2475 6925 2475
+Wire Wire Line
+	7125 2575 6925 2575
+Wire Wire Line
+	7125 3075 6875 3075
+Wire Wire Line
+	7125 3175 6875 3175
+Wire Wire Line
+	7125 4250 6225 4250
+Wire Wire Line
+	7125 4350 6925 4350
+Wire Wire Line
+	7125 4450 6925 4450
+Wire Wire Line
+	7125 4550 6925 4550
+Wire Wire Line
+	7125 4650 6925 4650
+Wire Wire Line
+	7125 4750 6925 4750
+Wire Wire Line
+	7125 4850 6925 4850
+Wire Wire Line
+	7125 5250 6875 5250
+Wire Wire Line
+	7125 5350 6875 5350
+Wire Wire Line
+	7250 9825 7675 9825
+Wire Wire Line
+	7250 9925 7675 9925
+Wire Wire Line
+	7250 10025 7675 10025
+Wire Wire Line
+	7250 10125 7675 10125
+Wire Wire Line
+	7275 8450 7700 8450
+Wire Wire Line
+	7275 8550 7700 8550
+Wire Wire Line
+	7275 8650 7700 8650
+Wire Wire Line
+	7275 8750 7700 8750
+Wire Wire Line
+	7275 8850 7700 8850
+Wire Wire Line
+	7275 9225 7700 9225
+Wire Wire Line
+	7275 9325 7700 9325
+Wire Wire Line
+	7275 9425 7700 9425
+Wire Wire Line
+	7300 6650 7725 6650
+Wire Wire Line
+	7300 6750 7725 6750
+Wire Wire Line
+	7300 6850 7725 6850
+Wire Wire Line
+	7300 6950 7725 6950
+Wire Wire Line
+	7300 7050 7725 7050
+Wire Wire Line
+	7300 7150 7725 7150
+Wire Wire Line
+	7300 7250 7725 7250
+Wire Wire Line
+	7300 7350 7725 7350
+Wire Wire Line
+	7300 7450 7725 7450
+Wire Wire Line
+	7300 7575 7725 7575
+Wire Wire Line
+	7300 7675 7725 7675
+Wire Wire Line
+	7300 7800 7725 7800
+Wire Wire Line
+	7300 7900 7725 7900
+Wire Wire Line
+	7300 8000 7725 8000
+Wire Wire Line
+	7875 2075 7975 2075
+Wire Wire Line
+	7875 2175 7975 2175
+Wire Wire Line
+	7875 2275 8575 2275
+Wire Wire Line
+	7875 2375 8075 2375
+Wire Wire Line
+	7875 2475 8075 2475
+Wire Wire Line
+	7875 2575 8075 2575
+Wire Wire Line
+	7875 2675 8075 2675
+Wire Wire Line
+	7875 3175 8075 3175
+Wire Wire Line
+	7875 4250 7975 4250
+Wire Wire Line
+	7875 4350 7975 4350
+Wire Wire Line
+	7875 4450 8575 4450
+Wire Wire Line
+	7875 4550 8075 4550
+Wire Wire Line
+	7875 4650 8075 4650
+Wire Wire Line
+	7875 4750 8075 4750
+Wire Wire Line
+	7875 4850 8075 4850
+Wire Wire Line
+	7875 4950 8075 4950
+Wire Wire Line
+	7875 5350 8075 5350
+Wire Wire Line
+	7975 2075 8825 2075
+Wire Wire Line
+	7975 2175 7975 2075
+Wire Wire Line
+	7975 4250 8825 4250
+Wire Wire Line
+	7975 4350 7975 4250
+Wire Wire Line
+	8075 3175 8075 3475
+Wire Wire Line
+	8075 5350 8075 5650
+Wire Wire Line
+	8575 2275 8575 2475
+Wire Wire Line
+	8575 4450 8575 4650
+Wire Wire Line
+	8825 2000 8825 2075
+Wire Wire Line
+	8825 2075 8825 2125
+Wire Wire Line
+	8825 2425 8825 2475
+Wire Wire Line
+	8825 4175 8825 4250
+Wire Wire Line
+	8825 4250 8825 4300
+Wire Wire Line
+	8825 4600 8825 4650
+Wire Wire Line
+	9800 7375 9725 7375
+Wire Wire Line
+	9800 7375 9800 7425
+Wire Wire Line
+	9800 7775 9800 7725
+Wire Wire Line
+	9875 7375 9800 7375
+Wire Wire Line
+	10275 6950 10275 7000
+Wire Wire Line
+	10275 7300 10275 7375
+Wire Wire Line
+	10275 7375 10175 7375
+Wire Wire Line
+	10500 4775 10500 4500
+Wire Wire Line
+	10500 5375 10500 4775
+Wire Wire Line
+	10500 5475 10500 5575
+Wire Wire Line
+	10550 6675 10550 6775
+Wire Wire Line
+	10650 2050 10650 2450
+Wire Wire Line
+	10650 2450 11050 2450
+Wire Wire Line
+	10750 6675 10550 6675
+Wire Wire Line
+	10750 6900 10750 6675
+Wire Wire Line
+	10750 7350 10750 7375
+Wire Wire Line
+	10750 7375 10275 7375
+Wire Wire Line
+	10825 7350 10825 7775
+Wire Wire Line
+	10850 2550 11050 2550
+Wire Wire Line
+	10850 2650 11050 2650
+Wire Wire Line
+	10850 2750 11050 2750
+Wire Wire Line
+	10850 2850 11050 2850
+Wire Wire Line
+	10850 2950 11050 2950
+Wire Wire Line
+	10900 2350 10900 2050
+Wire Wire Line
+	10900 3150 10900 3250
+Wire Wire Line
+	10900 3250 10900 3400
+Wire Wire Line
+	10900 6225 10900 6275
+Wire Wire Line
+	10900 6575 10900 6675
+Wire Wire Line
+	10900 6675 11100 6675
+Wire Wire Line
+	10900 6900 10900 6675
+Wire Wire Line
+	10900 7375 10900 7350
+Wire Wire Line
+	11025 4875 11200 4875
+Wire Wire Line
+	11025 5075 11200 5075
+Wire Wire Line
+	11025 5175 11200 5175
+Wire Wire Line
+	11025 5275 11200 5275
+Wire Wire Line
+	11050 2350 10900 2350
+Wire Wire Line
+	11050 3050 10850 3050
+Wire Wire Line
+	11050 3150 10900 3150
+Wire Wire Line
+	11050 3250 10900 3250
+Wire Wire Line
+	11200 4775 10500 4775
+Wire Wire Line
+	11200 4975 11025 4975
+Wire Wire Line
+	11200 5375 10500 5375
+Wire Wire Line
+	11200 5475 10500 5475
+Wire Wire Line
+	11250 6950 11250 7000
+Wire Wire Line
+	11250 7300 11250 7375
+Wire Wire Line
+	11250 7375 10900 7375
+Wire Wire Line
+	11350 7375 11250 7375
+Wire Wire Line
+	11650 7375 11725 7375
+Wire Wire Line
+	11725 7375 11725 7425
+Wire Wire Line
+	11725 7375 11800 7375
+Wire Wire Line
+	11725 7725 11725 7750
+Wire Wire Line
+	11900 2450 12275 2450
+Wire Wire Line
+	11900 3050 12100 3050
+Wire Wire Line
+	11900 3150 12075 3150
+Wire Wire Line
+	11900 3250 12075 3250
+Wire Wire Line
+	12025 2075 12025 2350
+Wire Wire Line
+	12025 2350 11900 2350
+Wire Wire Line
+	12075 3150 12075 3250
+Wire Wire Line
+	12075 3250 12075 3400
+Wire Wire Line
+	12100 2550 11900 2550
+Wire Wire Line
+	12100 2650 11900 2650
+Wire Wire Line
+	12100 2750 11900 2750
+Wire Wire Line
+	12100 2850 11900 2850
+Wire Wire Line
+	12100 2950 11900 2950
+Wire Wire Line
+	12275 2450 12275 2075
+Wire Wire Line
+	12775 8425 12775 8650
+Wire Wire Line
+	12800 7225 12800 7450
+Wire Wire Line
+	12850 8425 12775 8425
+Wire Wire Line
+	12875 7225 12800 7225
+Wire Wire Line
+	13325 7225 13450 7225
+Wire Wire Line
+	13425 8000 13425 8050
+Wire Wire Line
+	13425 8350 13425 8425
+Wire Wire Line
+	13425 8425 13300 8425
+Wire Wire Line
+	13425 8425 13500 8425
+Wire Wire Line
+	13450 6800 13450 6850
+Wire Wire Line
+	13450 7150 13450 7225
+Wire Wire Line
+	13450 7225 13525 7225
+Wire Wire Line
+	14150 1850 13875 1850
+Wire Wire Line
+	14150 1975 13900 1975
+Wire Wire Line
+	14150 2100 13900 2100
+Wire Wire Line
+	14150 2225 13925 2225
+Wire Wire Line
+	14150 2350 13925 2350
+Wire Wire Line
+	14150 2475 13925 2475
+Wire Wire Line
+	14150 2600 13925 2600
+Wire Wire Line
+	14150 2725 13925 2725
+Wire Wire Line
+	14150 2850 13925 2850
+Wire Wire Line
+	14175 8425 14175 8650
+Wire Wire Line
+	14225 7225 14225 7450
+Wire Wire Line
+	14250 8425 14175 8425
+Wire Wire Line
+	14300 7225 14225 7225
+Wire Wire Line
+	14450 1975 14600 1975
+Wire Wire Line
+	14450 2100 14600 2100
+Wire Wire Line
+	14450 2225 14600 2225
+Wire Wire Line
+	14450 2350 14600 2350
+Wire Wire Line
+	14450 2475 14600 2475
+Wire Wire Line
+	14450 2600 14600 2600
+Wire Wire Line
+	14450 2725 14600 2725
+Wire Wire Line
+	14450 2850 14600 2850
+Wire Wire Line
+	14600 1850 14450 1850
+Wire Wire Line
+	14600 1975 14600 1850
+Wire Wire Line
+	14600 2100 14600 1975
+Wire Wire Line
+	14600 2225 14600 2100
+Wire Wire Line
+	14600 2350 14600 2225
+Wire Wire Line
+	14600 2475 14600 2350
+Wire Wire Line
+	14600 2600 14600 2475
+Wire Wire Line
+	14600 2725 14600 2600
+Wire Wire Line
+	14600 2850 14600 2725
+Wire Wire Line
+	14600 2975 14600 2850
+Wire Wire Line
+	14825 8000 14825 8050
+Wire Wire Line
+	14825 8350 14825 8425
+Wire Wire Line
+	14825 8425 14700 8425
+Wire Wire Line
+	14825 8425 14900 8425
+Wire Wire Line
+	14875 6800 14875 6850
+Wire Wire Line
+	14875 7150 14875 7225
+Wire Wire Line
+	14875 7225 14750 7225
+Wire Wire Line
+	14875 7225 14950 7225
+Text Notes 750  10325 0    50   ~ 0
+ATSAMD51\nPB15    \nPB14    \nPB13    \nPB12    \nPB09    \nPB16    \nPB17    \nPA02    \n----    \nPB08    \n----    \n\nPA19\nPA18\n\nUSART signals:\nPA22\nPA23\n\nSPI-SD signals:\nPA04(SERCOM PAD0)\nPA05(SERCOM PAD1)\nPA06(SERCOM PAD2)\nPA20
+Text Notes 1800 10325 0    50   ~ 0
+Metro M4\n(6)    \n(5)    \n(4)    \n(7)    \n(A5)   \n(3)    \n(2)    \n(A0)   \n(GND)  \n(A4)   \n(5V)   \n\n(D11)   \n(D10)   \n\n\n*Tx>(1)\n*Rx<(0)\n\n\n(A3)\n(A1)\n(A2)\n(D9)
+Text Notes 2525 3975 0    50   ~ 0
+Checked!\n
+Text Notes 2550 2800 0    50   ~ 0
+Checked!\n
+Text Notes 2625 10325 0    50   ~ 0
+CasioROM Pack:\nPIN1  - !Data3    \nPIN2  - !Data2\nPIN3  - !Data1\nPIN4  - !Data0\nPIN5  - R/!W\nPIN6  - CLCK1\nPIN7  - CLCK2\nPIN8  - ?\nPIN9  - Gnd\nPIN10 - !CS\nPIN11 - Vcc\nSN74LVC4245A signals:  0 = OUTPUT (B 3.3V to A 5.0V ) , 1 = INPUT (A 5.0V to B 3.3V)\nIC2 PIN2 DIR_CTRL\nIC1 PIN2 DIR_DATA\n\nFT232RL:\nPIN 5-RXD\nPIN 1-TXD\n\n        SD\nMOSI - SD PIN2 DATA_IN\nSCK  - SD PIN5 SCK_IN\nMISO - SD PIN7 DATA_OUT\nnCS  - SD PIN1 nCS\n
+Text Notes 5650 1450 0    94   ~ 0
+5V <> 3.3V , keyboard <> UC signal level conversion:\n
+Text Notes 6275 6275 0    94   ~ 0
+Board peripherals GPIO correspondence:\n
+Text Notes 6625 1675 0    50   ~ 0
+5.5V on A Port and 2.7V to 3.6V on B Port
+Text Notes 6850 8300 0    94   ~ 0
+LCD Display:\n
+Text Notes 6850 9725 0    94   ~ 0
+Push buttons:\n
+Text Notes 6875 6500 0    94   ~ 0
+ROM-PACK:\n
+Text Notes 6975 9200 0    94   ~ 0
+Rotary encoder:\n\n
+Text Notes 7400 3600 0    118  ~ 0
+1
+Text Notes 7425 5800 0    94   ~ 0
+2
+Text Notes 8125 2975 0    50   ~ 0
+Checked!\n
+Text Notes 8150 5225 0    50   ~ 0
+Checked!\n
+Text Notes 10075 4250 0    94   ~ 0
+Graphic LCD (ST7735-SH1106):\n\n
+Text Notes 10300 1575 0    94   ~ 0
+To ROMPACK keyboard connector:\n
+Text Notes 10925 4400 0    50   ~ 0
+Checked!\n
+Text Notes 11250 6450 0    50   ~ 0
+Checked!\n
+Text Notes 11325 3575 0    50   ~ 0
+Checked!\n
+Text Notes 11575 5975 0    94   ~ 0
+Push buttons and encoders:\n
+Text Notes 13325 1600 0    94   ~ 0
+ROMPACK data bus pull down:\n
+Text Notes 13825 3775 0    94   ~ 0
+Mounting holes:
+Text Notes 13925 6625 0    50   ~ 0
+Checked!\n
+Text Label 2250 4300 0    50   ~ 0
+PA02
+Text Label 2250 4800 0    50   ~ 0
+PA07
+Text Label 2250 4900 0    50   ~ 0
+PA08
+Text Label 2250 5000 0    50   ~ 0
+PA09
+Text Label 2250 5100 0    50   ~ 0
+PA10
+Text Label 2250 5200 0    50   ~ 0
+PA11
+Text Label 2250 5300 0    50   ~ 0
+PA12
+Text Label 2250 5400 0    50   ~ 0
+PA13
+Text Label 2250 5500 0    50   ~ 0
+PA14
+Text Label 2250 5600 0    50   ~ 0
+PA15
+Text Label 2250 5700 0    50   ~ 0
+PA16
+Text Label 2250 5900 0    50   ~ 0
+PA18
+Text Label 2250 6000 0    50   ~ 0
+PA19
+Text Label 4025 4900 0    50   ~ 0
+PB05
+Text Label 4025 5000 0    50   ~ 0
+PB06
+Text Label 4025 5100 0    50   ~ 0
+PB07
+Text Label 4025 5200 0    50   ~ 0
+PB08
+Text Label 4025 5300 0    50   ~ 0
+PB09
+Text Label 4025 5400 0    50   ~ 0
+PB10
+Text Label 4025 5500 0    50   ~ 0
+PB11
+Text Label 4025 5600 0    50   ~ 0
+PB12
+Text Label 4025 5700 0    50   ~ 0
+PB13
+Text Label 4025 5800 0    50   ~ 0
+PB14
+Text Label 4025 5900 0    50   ~ 0
+PB15
+Text Label 4025 6000 0    50   ~ 0
+PB16
+Text Label 4025 6100 0    50   ~ 0
+PB17
+Text Label 6925 2175 2    50   ~ 0
+DIR_DATA
+Text Label 6925 2275 2    50   ~ 0
+!D0
+Text Label 6925 2375 2    50   ~ 0
+!D1
+Text Label 6925 2475 2    50   ~ 0
+!D2
+Text Label 6925 2575 2    50   ~ 0
+!D3
+Text Label 6925 4350 2    50   ~ 0
+DIR_CTRL
+Text Label 6925 4450 2    50   ~ 0
+!W\R
+Text Label 6925 4550 2    50   ~ 0
+CLCK1
+Text Label 6925 4650 2    50   ~ 0
+CLCK2
+Text Label 6925 4750 2    50   ~ 0
+?
+Text Label 6925 4850 2    50   ~ 0
+!CS
+Text Label 7250 9825 2    50   ~ 0
+PA10
+Text Label 7250 9925 2    50   ~ 0
+PA11
+Text Label 7250 10025 2    50   ~ 0
+PA12
+Text Label 7250 10125 2    50   ~ 0
+PA13
+Text Label 7275 8450 2    50   ~ 0
+PB05
+Text Label 7275 8550 2    50   ~ 0
+PB06
+Text Label 7275 8650 2    50   ~ 0
+PB07
+Text Label 7275 8750 2    50   ~ 0
+PB08
+Text Label 7275 8850 2    50   ~ 0
+PB09
+Text Label 7275 9225 2    50   ~ 0
+PA07
+Text Label 7275 9325 2    50   ~ 0
+PA08
+Text Label 7275 9425 2    50   ~ 0
+PA09
+Text Label 7300 6650 2    50   ~ 0
+PB11
+Text Label 7300 6750 2    50   ~ 0
+PB16
+Text Label 7300 6850 2    50   ~ 0
+PB17
+Text Label 7300 6950 2    50   ~ 0
+PA02
+Text Label 7300 7050 2    50   ~ 0
+PB10
+Text Label 7300 7150 2    50   ~ 0
+PB12
+Text Label 7300 7250 2    50   ~ 0
+PB13
+Text Label 7300 7350 2    50   ~ 0
+PB14
+Text Label 7300 7450 2    50   ~ 0
+PB15
+Text Label 7300 7575 2    50   ~ 0
+PA18
+Text Label 7300 7675 2    50   ~ 0
+PA19
+Text Label 7300 7800 2    50   ~ 0
+PA14
+Text Label 7300 7900 2    50   ~ 0
+PA15
+Text Label 7300 8000 2    50   ~ 0
+PA16
+Text Label 7675 9825 0    50   ~ 0
+PUSHB_A
+Text Label 7675 9925 0    50   ~ 0
+PUSHB_B
+Text Label 7675 10025 0    50   ~ 0
+PUSHB_C
+Text Label 7675 10125 0    50   ~ 0
+PUSHB_D
+Text Label 7700 8450 0    50   ~ 0
+LCD_CS
+Text Label 7700 8550 0    50   ~ 0
+LCD_RS
+Text Label 7700 8650 0    50   ~ 0
+LCD_RST
+Text Label 7700 8750 0    50   ~ 0
+LCD_SDA
+Text Label 7700 8850 0    50   ~ 0
+LCD_SCL
+Text Label 7700 9225 0    50   ~ 0
+ENC_A
+Text Label 7700 9325 0    50   ~ 0
+ENC_B
+Text Label 7700 9425 0    50   ~ 0
+ENC_PUSHB
+Text Label 7725 6650 0    50   ~ 0
+UC_!W\R
+Text Label 7725 6750 0    50   ~ 0
+UC_CLCK1
+Text Label 7725 6850 0    50   ~ 0
+UC_CLCK2
+Text Label 7725 6950 0    50   ~ 0
+UC_?
+Text Label 7725 7050 0    50   ~ 0
+UC_!CS
+Text Label 7725 7150 0    50   ~ 0
+UC_!D0
+Text Label 7725 7250 0    50   ~ 0
+UC_!D1
+Text Label 7725 7350 0    50   ~ 0
+UC_!D2
+Text Label 7725 7450 0    50   ~ 0
+UC_!D3
+Text Label 7725 7575 0    50   ~ 0
+DIR_DATA
+Text Label 7725 7675 0    50   ~ 0
+DIR_CTRL
+Text Label 7725 7800 0    50   ~ 0
+ROM_IO1
+Text Label 7725 7900 0    50   ~ 0
+ROM_IO2
+Text Label 7725 8000 0    50   ~ 0
+ROM_IO3
+Text Label 8075 2375 0    50   ~ 0
+UC_!D0
+Text Label 8075 2475 0    50   ~ 0
+UC_!D1
+Text Label 8075 2575 0    50   ~ 0
+UC_!D2
+Text Label 8075 2675 0    50   ~ 0
+UC_!D3
+Text Label 8075 4550 0    50   ~ 0
+UC_!W\R
+Text Label 8075 4650 0    50   ~ 0
+UC_CLCK1
+Text Label 8075 4750 0    50   ~ 0
+UC_CLCK2
+Text Label 8075 4850 0    50   ~ 0
+UC_?
+Text Label 8075 4950 0    50   ~ 0
+UC_!CS
+Text Label 9725 7375 2    50   ~ 0
+ENC_A
+Text Label 10850 2550 2    50   ~ 0
+!D3
+Text Label 10850 2650 2    50   ~ 0
+!D1
+Text Label 10850 2750 2    50   ~ 0
+CLCK1
+Text Label 10850 2850 2    50   ~ 0
+!W\R
+Text Label 10850 2950 2    50   ~ 0
+?
+Text Label 10850 3050 2    50   ~ 0
+ROM_IO2
+Text Label 11025 4875 2    50   ~ 0
+LCD_CS
+Text Label 11025 4975 2    50   ~ 0
+LCD_RS
+Text Label 11025 5075 2    50   ~ 0
+LCD_RST
+Text Label 11025 5175 2    50   ~ 0
+LCD_SDA
+Text Label 11025 5275 2    50   ~ 0
+LCD_SCL
+Text Label 11100 6675 0    50   ~ 0
+ENC_PUSHB
+Text Label 11800 7375 0    50   ~ 0
+ENC_B
+Text Label 12100 2550 0    50   ~ 0
+!D2
+Text Label 12100 2650 0    50   ~ 0
+!D0
+Text Label 12100 2750 0    50   ~ 0
+CLCK2
+Text Label 12100 2850 0    50   ~ 0
+!CS
+Text Label 12100 2950 0    50   ~ 0
+ROM_IO1
+Text Label 12100 3050 0    50   ~ 0
+ROM_IO3
+Text Label 13500 8425 0    50   ~ 0
+PUSHB_C
+Text Label 13525 7225 0    50   ~ 0
+PUSHB_A
+Text Label 13875 1850 2    50   ~ 0
+?
+Text Label 13900 1975 2    50   ~ 0
+!CS
+Text Label 13900 2100 2    50   ~ 0
+!W\R
+Text Label 13925 2225 2    50   ~ 0
+CLCK2
+Text Label 13925 2350 2    50   ~ 0
+CLCK1
+Text Label 13925 2475 2    50   ~ 0
+!D0
+Text Label 13925 2600 2    50   ~ 0
+!D1
+Text Label 13925 2725 2    50   ~ 0
+!D2
+Text Label 13925 2850 2    50   ~ 0
+!D3
+Text Label 14900 8425 0    50   ~ 0
+PUSHB_D
+Text Label 14950 7225 0    50   ~ 0
+PUSHB_B
+$Comp
+L Tolaemon:VCC5 #PWR05
+U 1 1 6176E475
+P 3475 1750
+F 0 "#PWR05" H 3475 1600 50  0001 C CNN
+F 1 "VCC5" H 3492 1923 50  0000 C CNN
+F 2 "" H 3475 1750 50  0001 C CNN
+F 3 "" H 3475 1750 50  0001 C CNN
+	1    3475 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC5 #PWR07
+U 1 1 6175BE14
+P 3825 3550
+F 0 "#PWR07" H 3825 3400 50  0001 C CNN
+F 1 "VCC5" H 3842 3723 50  0000 C CNN
+F 2 "" H 3825 3550 50  0001 C CNN
+F 3 "" H 3825 3550 50  0001 C CNN
+	1    3825 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC5 #PWR09
+U 1 1 61852716
+P 6225 2000
+F 0 "#PWR09" H 6225 1850 50  0001 C CNN
+F 1 "VCC5" H 6242 2173 50  0000 C CNN
+F 2 "" H 6225 2000 50  0001 C CNN
+F 3 "" H 6225 2000 50  0001 C CNN
+	1    6225 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC5 #PWR011
+U 1 1 618D8EB8
+P 6225 4175
+F 0 "#PWR011" H 6225 4025 50  0001 C CNN
+F 1 "VCC5" H 6242 4348 50  0000 C CNN
+F 2 "" H 6225 4175 50  0001 C CNN
+F 3 "" H 6225 4175 50  0001 C CNN
+	1    6225 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC5 #PWR025
+U 1 1 61C0D7BB
+P 10500 4500
+F 0 "#PWR025" H 10500 4350 50  0001 C CNN
+F 1 "VCC5" H 10517 4673 50  0000 C CNN
+F 2 "" H 10500 4500 50  0001 C CNN
+F 3 "" H 10500 4500 50  0001 C CNN
+	1    10500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC5 #PWR030
+U 1 1 61B00F46
+P 10900 2050
+F 0 "#PWR030" H 10900 1900 50  0001 C CNN
+F 1 "VCC5" H 10917 2223 50  0000 C CNN
+F 2 "" H 10900 2050 50  0001 C CNN
+F 3 "" H 10900 2050 50  0001 C CNN
+	1    10900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC5 #PWR035
+U 1 1 61A31D4C
+P 12025 2075
+F 0 "#PWR035" H 12025 1925 50  0001 C CNN
+F 1 "VCC5" H 12042 2248 50  0000 C CNN
+F 2 "" H 12025 2075 50  0001 C CNN
+F 3 "" H 12025 2075 50  0001 C CNN
+	1    12025 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:MountingHole MH1
+U 1 1 61BFA619
+P 14150 4000
+F 0 "MH1" H 14225 4046 50  0000 L CNN
+F 1 "MountingHole" H 14225 3955 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14150 4000 50  0001 C CNN
+F 3 "" H 14150 4000 50  0001 C CNN
+	1    14150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:MountingHole MH2
+U 1 1 61BFA93B
+P 14150 4200
+F 0 "MH2" H 14225 4246 50  0000 L CNN
+F 1 "MountingHole" H 14225 4155 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14150 4200 50  0001 C CNN
+F 3 "" H 14150 4200 50  0001 C CNN
+	1    14150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:MountingHole MH3
+U 1 1 61BFB2AA
+P 14150 4375
+F 0 "MH3" H 14225 4421 50  0000 L CNN
+F 1 "MountingHole" H 14225 4330 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14150 4375 50  0001 C CNN
+F 3 "" H 14150 4375 50  0001 C CNN
+	1    14150 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:MountingHole MH4
+U 1 1 61BFBB59
+P 14150 4550
+F 0 "MH4" H 14225 4596 50  0000 L CNN
+F 1 "MountingHole" H 14225 4505 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14150 4550 50  0001 C CNN
+F 3 "" H 14150 4550 50  0001 C CNN
+	1    14150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0113
+U 1 1 6199DDF3
+P 2025 2450
+F 0 "#PWR0113" H 2025 2200 50  0001 C CNN
+F 1 "GND" H 2025 2277 50  0000 C CNN
+F 2 "" H 2025 2450 50  0001 C CNN
+F 3 "" H 2025 2450 50  0001 C CNN
+	1    2025 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0114
+U 1 1 619B1B60
+P 2250 7150
+F 0 "#PWR0114" H 2250 6900 50  0001 C CNN
+F 1 "GND" H 2250 6977 50  0000 C CNN
+F 2 "" H 2250 7150 50  0001 C CNN
+F 3 "" H 2250 7150 50  0001 C CNN
+	1    2250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0112
+U 1 1 6198A1B1
+P 3475 2450
+F 0 "#PWR0112" H 3475 2200 50  0001 C CNN
+F 1 "GND" H 3475 2277 50  0000 C CNN
+F 2 "" H 3475 2450 50  0001 C CNN
+F 3 "" H 3475 2450 50  0001 C CNN
+	1    3475 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0115
+U 1 1 619C5836
+P 4025 7150
+F 0 "#PWR0115" H 4025 6900 50  0001 C CNN
+F 1 "GND" H 4025 6977 50  0000 C CNN
+F 2 "" H 4025 7150 50  0001 C CNN
+F 3 "" H 4025 7150 50  0001 C CNN
+	1    4025 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0111
+U 1 1 619764E5
+P 6225 2475
+F 0 "#PWR0111" H 6225 2225 50  0001 C CNN
+F 1 "GND" H 6225 2302 50  0000 C CNN
+F 2 "" H 6225 2475 50  0001 C CNN
+F 3 "" H 6225 2475 50  0001 C CNN
+	1    6225 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0101
+U 1 1 61D4C43A
+P 6225 4650
+F 0 "#PWR0101" H 6225 4400 50  0001 C CNN
+F 1 "GND" H 6230 4477 50  0000 C CNN
+F 2 "" H 6225 4650 50  0001 C CNN
+F 3 "" H 6225 4650 50  0001 C CNN
+	1    6225 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0107
+U 1 1 619273F6
+P 6875 3475
+F 0 "#PWR0107" H 6875 3225 50  0001 C CNN
+F 1 "GND" H 6875 3302 50  0000 C CNN
+F 2 "" H 6875 3475 50  0001 C CNN
+F 3 "" H 6875 3475 50  0001 C CNN
+	1    6875 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0106
+U 1 1 619137CB
+P 6875 5650
+F 0 "#PWR0106" H 6875 5400 50  0001 C CNN
+F 1 "GND" H 6875 5477 50  0000 C CNN
+F 2 "" H 6875 5650 50  0001 C CNN
+F 3 "" H 6875 5650 50  0001 C CNN
+	1    6875 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0108
+U 1 1 6193AF97
+P 8075 3475
+F 0 "#PWR0108" H 8075 3225 50  0001 C CNN
+F 1 "GND" H 8075 3302 50  0000 C CNN
+F 2 "" H 8075 3475 50  0001 C CNN
+F 3 "" H 8075 3475 50  0001 C CNN
+	1    8075 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0105
+U 1 1 618FF968
+P 8075 5650
+F 0 "#PWR0105" H 8075 5400 50  0001 C CNN
+F 1 "GND" H 8075 5477 50  0000 C CNN
+F 2 "" H 8075 5650 50  0001 C CNN
+F 3 "" H 8075 5650 50  0001 C CNN
+	1    8075 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0109
+U 1 1 6194EBBB
+P 8575 2475
+F 0 "#PWR0109" H 8575 2225 50  0001 C CNN
+F 1 "GND" H 8575 2302 50  0000 C CNN
+F 2 "" H 8575 2475 50  0001 C CNN
+F 3 "" H 8575 2475 50  0001 C CNN
+	1    8575 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0125
+U 1 1 61B47269
+P 8575 4650
+F 0 "#PWR0125" H 8575 4400 50  0001 C CNN
+F 1 "GND" H 8580 4477 50  0000 C CNN
+F 2 "" H 8575 4650 50  0001 C CNN
+F 3 "" H 8575 4650 50  0001 C CNN
+	1    8575 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0110
+U 1 1 6196281D
+P 8825 2475
+F 0 "#PWR0110" H 8825 2225 50  0001 C CNN
+F 1 "GND" H 8825 2302 50  0000 C CNN
+F 2 "" H 8825 2475 50  0001 C CNN
+F 3 "" H 8825 2475 50  0001 C CNN
+	1    8825 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0126
+U 1 1 61D60C54
+P 8825 4650
+F 0 "#PWR0126" H 8825 4400 50  0001 C CNN
+F 1 "GND" H 8830 4477 50  0000 C CNN
+F 2 "" H 8825 4650 50  0001 C CNN
+F 3 "" H 8825 4650 50  0001 C CNN
+	1    8825 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0116
+U 1 1 619D9495
+P 9800 7775
+F 0 "#PWR0116" H 9800 7525 50  0001 C CNN
+F 1 "GND" H 9800 7602 50  0000 C CNN
+F 2 "" H 9800 7775 50  0001 C CNN
+F 3 "" H 9800 7775 50  0001 C CNN
+	1    9800 7775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0104
+U 1 1 618EBC3E
+P 10500 5575
+F 0 "#PWR0104" H 10500 5325 50  0001 C CNN
+F 1 "GND" H 10500 5402 50  0000 C CNN
+F 2 "" H 10500 5575 50  0001 C CNN
+F 3 "" H 10500 5575 50  0001 C CNN
+	1    10500 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0124
+U 1 1 61A79E7A
+P 10550 6775
+F 0 "#PWR0124" H 10550 6525 50  0001 C CNN
+F 1 "GND" H 10550 6602 50  0000 C CNN
+F 2 "" H 10550 6775 50  0001 C CNN
+F 3 "" H 10550 6775 50  0001 C CNN
+	1    10550 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0117
+U 1 1 619ED08B
+P 10825 7775
+F 0 "#PWR0117" H 10825 7525 50  0001 C CNN
+F 1 "GND" H 10825 7602 50  0000 C CNN
+F 2 "" H 10825 7775 50  0001 C CNN
+F 3 "" H 10825 7775 50  0001 C CNN
+	1    10825 7775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0103
+U 1 1 618D7FA2
+P 10900 3400
+F 0 "#PWR0103" H 10900 3150 50  0001 C CNN
+F 1 "GND" H 10900 3227 50  0000 C CNN
+F 2 "" H 10900 3400 50  0001 C CNN
+F 3 "" H 10900 3400 50  0001 C CNN
+	1    10900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0118
+U 1 1 61A00CD6
+P 11725 7750
+F 0 "#PWR0118" H 11725 7500 50  0001 C CNN
+F 1 "GND" H 11725 7577 50  0000 C CNN
+F 2 "" H 11725 7750 50  0001 C CNN
+F 3 "" H 11725 7750 50  0001 C CNN
+	1    11725 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0102
+U 1 1 618D7190
+P 12075 3400
+F 0 "#PWR0102" H 12075 3150 50  0001 C CNN
+F 1 "GND" H 12075 3227 50  0000 C CNN
+F 2 "" H 12075 3400 50  0001 C CNN
+F 3 "" H 12075 3400 50  0001 C CNN
+	1    12075 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0120
+U 1 1 61A286A0
+P 12775 8650
+F 0 "#PWR0120" H 12775 8400 50  0001 C CNN
+F 1 "GND" H 12775 8477 50  0000 C CNN
+F 2 "" H 12775 8650 50  0001 C CNN
+F 3 "" H 12775 8650 50  0001 C CNN
+	1    12775 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0119
+U 1 1 61A14940
+P 12800 7450
+F 0 "#PWR0119" H 12800 7200 50  0001 C CNN
+F 1 "GND" H 12800 7277 50  0000 C CNN
+F 2 "" H 12800 7450 50  0001 C CNN
+F 3 "" H 12800 7450 50  0001 C CNN
+	1    12800 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0122
+U 1 1 61A5024E
+P 14175 8650
+F 0 "#PWR0122" H 14175 8400 50  0001 C CNN
+F 1 "GND" H 14175 8477 50  0000 C CNN
+F 2 "" H 14175 8650 50  0001 C CNN
+F 3 "" H 14175 8650 50  0001 C CNN
+	1    14175 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0121
+U 1 1 61A3C447
+P 14225 7450
+F 0 "#PWR0121" H 14225 7200 50  0001 C CNN
+F 1 "GND" H 14225 7277 50  0000 C CNN
+F 2 "" H 14225 7450 50  0001 C CNN
+F 3 "" H 14225 7450 50  0001 C CNN
+	1    14225 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:GND #PWR0123
+U 1 1 61A63E44
+P 14600 2975
+F 0 "#PWR0123" H 14600 2725 50  0001 C CNN
+F 1 "GND" H 14600 2802 50  0000 C CNN
+F 2 "" H 14600 2975 50  0001 C CNN
+F 3 "" H 14600 2975 50  0001 C CNN
+	1    14600 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R1
+U 1 1 61D3347B
+P 10025 7375
+F 0 "R1" V 10225 7325 50  0000 L CNN
+F 1 "10K" V 10125 7300 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 9955 7375 50  0001 C CNN
+F 3 "~" H 10025 7375 50  0001 C CNN
+	1    10025 7375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R2
+U 1 1 61CDBFC2
+P 10275 7150
+F 0 "R2" H 10345 7196 50  0000 L CNN
+F 1 "1K" H 10345 7105 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 10205 7150 50  0001 C CNN
+F 3 "~" H 10275 7150 50  0001 C CNN
+	1    10275 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R3
+U 1 1 61B44755
+P 10900 6425
+F 0 "R3" H 10970 6471 50  0000 L CNN
+F 1 "1K" H 10970 6380 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 10830 6425 50  0001 C CNN
+F 3 "~" H 10900 6425 50  0001 C CNN
+	1    10900 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R4
+U 1 1 61CDD10C
+P 11250 7150
+F 0 "R4" H 11320 7196 50  0000 L CNN
+F 1 "1K" H 11320 7105 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 11180 7150 50  0001 C CNN
+F 3 "~" H 11250 7150 50  0001 C CNN
+	1    11250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R5
+U 1 1 61D2A0D7
+P 11500 7375
+F 0 "R5" V 11707 7375 50  0000 C CNN
+F 1 "10K" V 11616 7375 50  0000 C CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 11430 7375 50  0001 C CNN
+F 3 "~" H 11500 7375 50  0001 C CNN
+	1    11500 7375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R6
+U 1 1 61F03795
+P 13425 8200
+F 0 "R6" H 13495 8246 50  0000 L CNN
+F 1 "1K" H 13495 8155 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 13355 8200 50  0001 C CNN
+F 3 "~" H 13425 8200 50  0001 C CNN
+	1    13425 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R7
+U 1 1 61EEBCEA
+P 13450 7000
+F 0 "R7" H 13520 7046 50  0000 L CNN
+F 1 "1K" H 13520 6955 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 13380 7000 50  0001 C CNN
+F 3 "~" H 13450 7000 50  0001 C CNN
+	1    13450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R8
+U 1 1 619A4CDA
+P 14300 1850
+F 0 "R8" V 14375 2050 50  0000 L CNN
+F 1 "1K" V 14375 1650 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 1850 50  0001 C CNN
+F 3 "~" H 14300 1850 50  0001 C CNN
+	1    14300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R9
+U 1 1 61882AFE
+P 14300 1975
+F 0 "R9" V 14350 2175 50  0000 L CNN
+F 1 "1K" V 14350 1775 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 1975 50  0001 C CNN
+F 3 "~" H 14300 1975 50  0001 C CNN
+	1    14300 1975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R10
+U 1 1 618D7BE5
+P 14300 2100
+F 0 "R10" V 14350 2300 50  0000 L CNN
+F 1 "1K" V 14350 1900 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2100 50  0001 C CNN
+F 3 "~" H 14300 2100 50  0001 C CNN
+	1    14300 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R11
+U 1 1 618EB52A
+P 14300 2225
+F 0 "R11" V 14350 2425 50  0000 L CNN
+F 1 "1K" V 14350 2025 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2225 50  0001 C CNN
+F 3 "~" H 14300 2225 50  0001 C CNN
+	1    14300 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R12
+U 1 1 618EB530
+P 14300 2350
+F 0 "R12" V 14350 2550 50  0000 L CNN
+F 1 "1K" V 14350 2150 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2350 50  0001 C CNN
+F 3 "~" H 14300 2350 50  0001 C CNN
+	1    14300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R13
+U 1 1 618FD18A
+P 14300 2475
+F 0 "R13" V 14350 2675 50  0000 L CNN
+F 1 "1K" V 14350 2275 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2475 50  0001 C CNN
+F 3 "~" H 14300 2475 50  0001 C CNN
+	1    14300 2475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R14
+U 1 1 618FD190
+P 14300 2600
+F 0 "R14" V 14350 2800 50  0000 L CNN
+F 1 "1K" V 14350 2400 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2600 50  0001 C CNN
+F 3 "~" H 14300 2600 50  0001 C CNN
+	1    14300 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R15
+U 1 1 618FD196
+P 14300 2725
+F 0 "R15" V 14350 2925 50  0000 L CNN
+F 1 "1K" V 14350 2525 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2725 50  0001 C CNN
+F 3 "~" H 14300 2725 50  0001 C CNN
+	1    14300 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R16
+U 1 1 618FD19C
+P 14300 2850
+F 0 "R16" V 14350 3050 50  0000 L CNN
+F 1 "1K" V 14350 2650 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14230 2850 50  0001 C CNN
+F 3 "~" H 14300 2850 50  0001 C CNN
+	1    14300 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tolaemon:R R17
+U 1 1 61F0F5AF
+P 14825 8200
+F 0 "R17" H 14895 8246 50  0000 L CNN
+F 1 "1K" H 14895 8155 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14755 8200 50  0001 C CNN
+F 3 "~" H 14825 8200 50  0001 C CNN
+	1    14825 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:R R18
+U 1 1 61EF77D2
+P 14875 7000
+F 0 "R18" H 14945 7046 50  0000 L CNN
+F 1 "1K" H 14945 6955 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 14805 7000 50  0001 C CNN
+F 3 "~" H 14875 7000 50  0001 C CNN
+	1    14875 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR01
+U 1 1 617AC262
+P 2025 1725
+F 0 "#PWR01" H 2025 1575 50  0001 C CNN
+F 1 "VCC3.3" H 2042 1898 50  0000 C CNN
+F 2 "" H 2025 1725 50  0001 C CNN
+F 3 "" H 2025 1725 50  0001 C CNN
+	1    2025 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR03
+U 1 1 6174DB0E
+P 2075 3550
+F 0 "#PWR03" H 2075 3400 50  0001 C CNN
+F 1 "VCC3.3" H 2092 3723 50  0000 C CNN
+F 2 "" H 2075 3550 50  0001 C CNN
+F 3 "" H 2075 3550 50  0001 C CNN
+	1    2075 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR019
+U 1 1 6185B78B
+P 8825 2000
+F 0 "#PWR019" H 8825 1850 50  0001 C CNN
+F 1 "VCC3.3" H 8842 2173 50  0000 C CNN
+F 2 "" H 8825 2000 50  0001 C CNN
+F 3 "" H 8825 2000 50  0001 C CNN
+	1    8825 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR021
+U 1 1 618D3075
+P 8825 4175
+F 0 "#PWR021" H 8825 4025 50  0001 C CNN
+F 1 "VCC3.3" H 8842 4348 50  0000 C CNN
+F 2 "" H 8825 4175 50  0001 C CNN
+F 3 "" H 8825 4175 50  0001 C CNN
+	1    8825 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR024
+U 1 1 61CB6E53
+P 10275 6950
+F 0 "#PWR024" H 10275 6800 50  0001 C CNN
+F 1 "VCC3.3" H 10292 7123 50  0000 C CNN
+F 2 "" H 10275 6950 50  0001 C CNN
+F 3 "" H 10275 6950 50  0001 C CNN
+	1    10275 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR028
+U 1 1 61A2A3B2
+P 10650 2050
+F 0 "#PWR028" H 10650 1900 50  0001 C CNN
+F 1 "VCC3.3" H 10667 2223 50  0000 C CNN
+F 2 "" H 10650 2050 50  0001 C CNN
+F 3 "" H 10650 2050 50  0001 C CNN
+	1    10650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR032
+U 1 1 61B4474F
+P 10900 6225
+F 0 "#PWR032" H 10900 6075 50  0001 C CNN
+F 1 "VCC3.3" H 10917 6398 50  0000 C CNN
+F 2 "" H 10900 6225 50  0001 C CNN
+F 3 "" H 10900 6225 50  0001 C CNN
+	1    10900 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR033
+U 1 1 61CBFC5D
+P 11250 6950
+F 0 "#PWR033" H 11250 6800 50  0001 C CNN
+F 1 "VCC3.3" H 11267 7123 50  0000 C CNN
+F 2 "" H 11250 6950 50  0001 C CNN
+F 3 "" H 11250 6950 50  0001 C CNN
+	1    11250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR037
+U 1 1 61B2D40B
+P 12275 2075
+F 0 "#PWR037" H 12275 1925 50  0001 C CNN
+F 1 "VCC3.3" H 12292 2248 50  0000 C CNN
+F 2 "" H 12275 2075 50  0001 C CNN
+F 3 "" H 12275 2075 50  0001 C CNN
+	1    12275 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR040
+U 1 1 61F0378F
+P 13425 8000
+F 0 "#PWR040" H 13425 7850 50  0001 C CNN
+F 1 "VCC3.3" H 13442 8173 50  0000 C CNN
+F 2 "" H 13425 8000 50  0001 C CNN
+F 3 "" H 13425 8000 50  0001 C CNN
+	1    13425 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR041
+U 1 1 61EEBCE4
+P 13450 6800
+F 0 "#PWR041" H 13450 6650 50  0001 C CNN
+F 1 "VCC3.3" H 13467 6973 50  0000 C CNN
+F 2 "" H 13450 6800 50  0001 C CNN
+F 3 "" H 13450 6800 50  0001 C CNN
+	1    13450 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR045
+U 1 1 61F0F5A9
+P 14825 8000
+F 0 "#PWR045" H 14825 7850 50  0001 C CNN
+F 1 "VCC3.3" H 14842 8173 50  0000 C CNN
+F 2 "" H 14825 8000 50  0001 C CNN
+F 3 "" H 14825 8000 50  0001 C CNN
+	1    14825 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:VCC3.3 #PWR046
+U 1 1 61EF77CC
+P 14875 6800
+F 0 "#PWR046" H 14875 6650 50  0001 C CNN
+F 1 "VCC3.3" H 14892 6973 50  0000 C CNN
+F 2 "" H 14875 6800 50  0001 C CNN
+F 3 "" H 14875 6800 50  0001 C CNN
+	1    14875 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C1
+U 1 1 617CD524
+P 1750 2200
+F 0 "C1" H 1775 2300 50  0000 L CNN
+F 1 "10uF" H 1550 2075 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 1750 2200 50  0001 C CNN
+F 3 "~" H 1750 2200 50  0001 C CNN
+	1    1750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C2
+U 1 1 617C8F37
+P 2025 2200
+F 0 "C2" H 2050 2300 50  0000 L CNN
+F 1 "0.1uF" H 1800 2075 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 2025 2200 50  0001 C CNN
+F 3 "~" H 2025 2200 50  0001 C CNN
+	1    2025 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C3
+U 1 1 61987CA6
+P 2300 2200
+F 0 "C3" H 2325 2300 50  0000 L CNN
+F 1 "0.1uF" H 2075 2075 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 2300 2200 50  0001 C CNN
+F 3 "~" H 2300 2200 50  0001 C CNN
+	1    2300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C4
+U 1 1 618002AC
+P 3200 2200
+F 0 "C4" H 3225 2300 50  0000 L CNN
+F 1 "10uF" H 3000 2075 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 3200 2200 50  0001 C CNN
+F 3 "~" H 3200 2200 50  0001 C CNN
+	1    3200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C5
+U 1 1 618002A6
+P 3475 2200
+F 0 "C5" H 3500 2300 50  0000 L CNN
+F 1 "0.1uF" H 3250 2075 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 3475 2200 50  0001 C CNN
+F 3 "~" H 3475 2200 50  0001 C CNN
+	1    3475 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C6
+U 1 1 618002C4
+P 3750 2200
+F 0 "C6" H 3775 2300 50  0000 L CNN
+F 1 "0.1uF" H 3525 2075 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 3750 2200 50  0001 C CNN
+F 3 "~" H 3750 2200 50  0001 C CNN
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C7
+U 1 1 61862BE9
+P 6225 2275
+F 0 "C7" H 6250 2375 50  0000 L CNN
+F 1 "0.1uF" H 6000 2150 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 6225 2275 50  0001 C CNN
+F 3 "~" H 6225 2275 50  0001 C CNN
+	1    6225 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C8
+U 1 1 618D8EBE
+P 6225 4450
+F 0 "C8" H 6250 4550 50  0000 L CNN
+F 1 "0.1uF" H 6000 4325 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 6225 4450 50  0001 C CNN
+F 3 "~" H 6225 4450 50  0001 C CNN
+	1    6225 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C9
+U 1 1 6187CFE0
+P 8825 2275
+F 0 "C9" H 8850 2375 50  0000 L CNN
+F 1 "0.1uF" H 8600 2150 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 8825 2275 50  0001 C CNN
+F 3 "~" H 8825 2275 50  0001 C CNN
+	1    8825 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C10
+U 1 1 618D307B
+P 8825 4450
+F 0 "C10" H 8850 4550 50  0000 L CNN
+F 1 "0.1uF" H 8600 4325 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 8825 4450 50  0001 C CNN
+F 3 "~" H 8825 4450 50  0001 C CNN
+	1    8825 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C11
+U 1 1 61D7A20B
+P 9800 7575
+F 0 "C11" H 9825 7675 50  0000 L CNN
+F 1 "0.1uF" H 9575 7450 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 9800 7575 50  0001 C CNN
+F 3 "~" H 9800 7575 50  0001 C CNN
+	1    9800 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:CP C12
+U 1 1 61D84294
+P 11725 7575
+F 0 "C12" H 11750 7675 50  0000 L CNN
+F 1 "0.1uF" H 11500 7450 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 11725 7575 50  0001 C CNN
+F 3 "~" H 11725 7575 50  0001 C CNN
+	1    11725 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:RotaryEncoder PB1
+U 1 1 61C97FE9
+P 10825 7125
+F 0 "PB1" H 10875 6800 50  0000 L CNN
+F 1 "RotaryEncoder" V 11000 6925 50  0000 L CNN
+F 2 "Tolaemon:EncoderPushButton" H 11035 7080 50  0001 C CNN
+F 3 "" H 11035 7080 50  0001 C CNN
+	1    10825 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PushButton PB2
+U 1 1 61C98EF3
+P 13075 8425
+F 0 "PB2" H 13075 8650 50  0000 C CNN
+F 1 "PushButton" H 13100 8250 50  0000 C CNN
+F 2 "Tolaemon:PushButtonBig" H 13310 8480 50  0001 C CNN
+F 3 "" H 13310 8480 50  0001 C CNN
+	1    13075 8425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PushButton PB3
+U 1 1 61C9A40D
+P 13100 7225
+F 0 "PB3" H 13100 7450 50  0000 C CNN
+F 1 "PushButton" H 13125 7050 50  0000 C CNN
+F 2 "Tolaemon:PushButtonBig" H 13335 7280 50  0001 C CNN
+F 3 "" H 13335 7280 50  0001 C CNN
+	1    13100 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PushButton PB4
+U 1 1 61C99F17
+P 14475 8425
+F 0 "PB4" H 14475 8650 50  0000 C CNN
+F 1 "PushButton" H 14525 8250 50  0000 C CNN
+F 2 "Tolaemon:PushButtonBig" H 14710 8480 50  0001 C CNN
+F 3 "" H 14710 8480 50  0001 C CNN
+	1    14475 8425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PushButton PB5
+U 1 1 61C9A93E
+P 14525 7225
+F 0 "PB5" H 14525 7450 50  0000 C CNN
+F 1 "PushButton" H 14550 7050 50  0000 C CNN
+F 2 "Tolaemon:PushButtonBig" H 14760 7280 50  0001 C CNN
+F 3 "" H 14760 7280 50  0001 C CNN
+	1    14525 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:LCD_ST7735 CN3
+U 1 1 61BE70D0
+P 11350 5275
+F 0 "CN3" H 11275 5950 50  0000 L CNN
+F 1 "LCD_ST7735" H 11225 4900 50  0000 L CNN
+F 2 "Tolaemon:LCD_ST7735" H 11350 5925 50  0001 C CNN
+F 3 "" H 11350 5925 50  0001 C CNN
+	1    11350 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PinStrip2x10 CN4
+U 1 1 61AAE394
+P 11475 2675
+F 0 "CN4" H 11250 3150 50  0000 C CNN
+F 1 "PinStrip2x10" H 11475 1950 50  0000 C CNN
+F 2 "Tolaemon:PinHeader_2x10_P2.54mm_Vertical" H 11200 3150 50  0001 C CNN
+F 3 "" H 11200 3150 50  0001 C CNN
+	1    11475 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:SN74LVC4245A U1
+U 1 1 61833DEA
+P 7575 2575
+F 0 "U1" H 7250 3275 50  0000 C CNN
+F 1 "SN74LVC4245A" H 7500 1800 50  0000 C CNN
+F 2 "Tolaemon:SSOP-24_5.3x8.2mm_P0.65mm" H 7275 3225 50  0001 C CNN
+F 3 "" H 7275 3225 50  0001 C CNN
+	1    7575 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:SN74LVC4245A U2
+U 1 1 6183584F
+P 7575 4750
+F 0 "U2" H 7300 5450 50  0000 C CNN
+F 1 "SN74LVC4245A" H 7525 3975 50  0000 C CNN
+F 2 "Tolaemon:SSOP-24_5.3x8.2mm_P0.65mm" H 7275 5400 50  0001 C CNN
+F 3 "" H 7275 5400 50  0001 C CNN
+	1    7575 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PinStrip30 CN1
+U 1 1 6186680D
+P 1675 4750
+F 0 "CN1" H 1800 5600 50  0000 C CNN
+F 1 "PinStrip30" H 1700 2350 50  0000 C CNN
+F 2 "Tolaemon:PinHeader_1x30_P2.54mm_Vertical" H 1575 5550 50  0001 C CNN
+F 3 "" H 1575 5550 50  0001 C CNN
+	1    1675 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Tolaemon:PinStrip30 CN2
+U 1 1 6186B770
+P 3450 4750
+F 0 "CN2" H 3575 5600 50  0000 C CNN
+F 1 "PinStrip30" H 3425 2350 50  0000 C CNN
+F 2 "Tolaemon:PinHeader_1x30_P2.54mm_Vertical" H 3350 5550 50  0001 C CNN
+F 3 "" H 3350 5550 50  0001 C CNN
+	1    3450 4750
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

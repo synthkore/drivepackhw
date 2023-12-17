@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Proyectos\CasioRomPacks\DrivePACK\BaseBoard\BaseBoard.sch</source>
+    <date>25/06/2023 11:32:58</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BaseBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c6fd7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061987ca6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c8f37</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Tolaemon:SMD_C_0.5x0.5cm</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617cd524</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618f538b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616a18cd</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616a45e6</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006196d7f8</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Tolaemon:SMD_C_0.5x0.5cm</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006196d7f2</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Tolaemon:SMD_C_0.5x0.5cm</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006196d80b</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b701</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Tolaemon:SMD_C_0.5x0.5cm</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006182337d</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Tolaemon:SMD_C_0.5x0.5cm</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061823377</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Tolaemon:SMD_C_0.5x0.5cm</footprint>
+      <libsource lib="BaseBoard-rescue" part="CP-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061830377</tstamps>
+    </comp>
+    <comp ref="CN1">
+      <value>PinStrip30</value>
+      <footprint>Tolaemon:PinHeader_1x30_P2.54mm_Vertical</footprint>
+      <libsource lib="BaseBoard-rescue" part="PinStrip30-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006186680d</tstamps>
+    </comp>
+    <comp ref="CN2">
+      <value>PinStrip30</value>
+      <footprint>Tolaemon:PinHeader_1x30_P2.54mm_Vertical</footprint>
+      <libsource lib="BaseBoard-rescue" part="PinStrip30-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006186b770</tstamps>
+    </comp>
+    <comp ref="CN3">
+      <value>PinStrip2x5</value>
+      <footprint>Tolaemon:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <libsource lib="BaseBoard-rescue" part="PinStrip2x5-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006247b7a6</tstamps>
+    </comp>
+    <comp ref="CN4">
+      <value>SDCardScocket</value>
+      <footprint>Tolaemon:SDCard_NoHoles</footprint>
+      <libsource lib="BaseBoard-rescue" part="SDCardScocket-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061866c3a</tstamps>
+    </comp>
+    <comp ref="CN5">
+      <value>PowerJack</value>
+      <footprint>Tolaemon:PowerFemale</footprint>
+      <libsource lib="BaseBoard-rescue" part="PowerJack-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617b2343</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Tolaemon:D_SOD-123</footprint>
+      <libsource lib="BaseBoard-rescue" part="D-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617e9fb2</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500ma</value>
+      <footprint>Tolaemon:SMD_C_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="F-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617cae8c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Tolaemon:SMD_L_4018</footprint>
+      <libsource lib="BaseBoard-rescue" part="L-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061af6dd1</tstamps>
+    </comp>
+    <comp ref="LD1">
+      <value>LED</value>
+      <footprint>Tolaemon:SMD_LD_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="LD-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061985245</tstamps>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>Tolaemon:MountingHole</footprint>
+      <libsource lib="BaseBoard-rescue" part="MountingHole-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619a5392</tstamps>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>Tolaemon:MountingHole</footprint>
+      <libsource lib="BaseBoard-rescue" part="MountingHole-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619a6482</tstamps>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>Tolaemon:MountingHole</footprint>
+      <libsource lib="BaseBoard-rescue" part="MountingHole-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619c194c</tstamps>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>Tolaemon:MountingHole</footprint>
+      <libsource lib="BaseBoard-rescue" part="MountingHole-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619dcdb4</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>USB_micro_B_female</value>
+      <footprint>Tolaemon:USB_Micro-B_Wuerth_629105150521</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="BaseBoard-rescue" part="USB_micro_B_female-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a2fdd2</tstamps>
+    </comp>
+    <comp ref="PB1">
+      <value>PushBSmall</value>
+      <footprint>Tolaemon:PushButton</footprint>
+      <libsource lib="BaseBoard-rescue" part="PushBSmall-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061970f58</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062701ce7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618e8b91</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b7a7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b715</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b71b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b7bd</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b7a1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618b50b1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <footprint>Tolaemon:SMD_R_0805_2012Metric</footprint>
+      <libsource lib="BaseBoard-rescue" part="R-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b79b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112_R5A_SOT_89-5</value>
+      <footprint>Tolaemon:SOT-89-5_Handsoldering</footprint>
+      <libsource lib="BaseBoard-rescue" part="AP2112_R5A_SOT_89-5-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006200a361</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATSAMD51J19</value>
+      <footprint>Tolaemon:TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm</footprint>
+      <libsource lib="BaseBoard-rescue" part="ATSAMD51J19-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b50d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>FT232RL</value>
+      <footprint>Tolaemon:SSOP-28_5.3x10.2mm_P0.65mm</footprint>
+      <libsource lib="BaseBoard-rescue" part="FT232RL-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006162b6e3</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768</value>
+      <footprint>Tolaemon:SMD_XTAL_3.4x2.7max</footprint>
+      <libsource lib="BaseBoard-rescue" part="Xtal-Tolaemon" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Proyectos/CasioRomPacks/DrivePACK/BaseBoard/BaseBoard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061697915</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BaseBoard-rescue" part="AP2112_R5A_SOT_89-5-Tolaemon">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112_R5A_SOT_89-5-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="NC" type="bidirectional"/>
+        <pin num="4" name="VIN" type="bidirectional"/>
+        <pin num="5" name="VOUT" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="ATSAMD51J19-Tolaemon">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAMD51J19-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="bidirectional"/>
+        <pin num="2" name="PA01" type="bidirectional"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PB04" type="bidirectional"/>
+        <pin num="6" name="PB05" type="bidirectional"/>
+        <pin num="7" name="GNDANA" type="bidirectional"/>
+        <pin num="8" name="VDDANA" type="bidirectional"/>
+        <pin num="9" name="PB06" type="bidirectional"/>
+        <pin num="10" name="PB07" type="bidirectional"/>
+        <pin num="11" name="PB08" type="bidirectional"/>
+        <pin num="12" name="PB09" type="bidirectional"/>
+        <pin num="13" name="PA04" type="bidirectional"/>
+        <pin num="14" name="PA05" type="bidirectional"/>
+        <pin num="15" name="PA06" type="bidirectional"/>
+        <pin num="16" name="PA07" type="bidirectional"/>
+        <pin num="17" name="PA08" type="bidirectional"/>
+        <pin num="18" name="PA09" type="bidirectional"/>
+        <pin num="19" name="PA10" type="bidirectional"/>
+        <pin num="20" name="PA11" type="bidirectional"/>
+        <pin num="21" name="VDDIOB" type="bidirectional"/>
+        <pin num="22" name="GND" type="bidirectional"/>
+        <pin num="23" name="PB10" type="bidirectional"/>
+        <pin num="24" name="PB11" type="bidirectional"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA12" type="bidirectional"/>
+        <pin num="30" name="PA13" type="bidirectional"/>
+        <pin num="31" name="PA14" type="bidirectional"/>
+        <pin num="32" name="PA15" type="bidirectional"/>
+        <pin num="33" name="GND" type="bidirectional"/>
+        <pin num="34" name="VDDIO" type="bidirectional"/>
+        <pin num="35" name="PA16" type="bidirectional"/>
+        <pin num="36" name="PA17" type="bidirectional"/>
+        <pin num="37" name="PA18" type="bidirectional"/>
+        <pin num="38" name="PA19" type="bidirectional"/>
+        <pin num="39" name="PB16" type="bidirectional"/>
+        <pin num="40" name="PB17" type="bidirectional"/>
+        <pin num="41" name="PA20" type="bidirectional"/>
+        <pin num="42" name="PA21" type="bidirectional"/>
+        <pin num="43" name="PA22" type="bidirectional"/>
+        <pin num="44" name="PA23" type="bidirectional"/>
+        <pin num="45" name="PA24" type="bidirectional"/>
+        <pin num="46" name="PA25" type="bidirectional"/>
+        <pin num="47" name="GND" type="bidirectional"/>
+        <pin num="48" name="VDDIO" type="bidirectional"/>
+        <pin num="49" name="PB22" type="bidirectional"/>
+        <pin num="50" name="PB23" type="bidirectional"/>
+        <pin num="51" name="PA27" type="bidirectional"/>
+        <pin num="52" name="RESETN" type="bidirectional"/>
+        <pin num="53" name="VDDCORE" type="bidirectional"/>
+        <pin num="54" name="GND" type="bidirectional"/>
+        <pin num="55" name="VSW" type="bidirectional"/>
+        <pin num="56" name="VDDIO" type="bidirectional"/>
+        <pin num="57" name="PA30" type="bidirectional"/>
+        <pin num="58" name="PA31" type="bidirectional"/>
+        <pin num="59" name="PB30" type="bidirectional"/>
+        <pin num="60" name="PB31" type="bidirectional"/>
+        <pin num="61" name="PB00" type="bidirectional"/>
+        <pin num="62" name="PB01" type="bidirectional"/>
+        <pin num="63" name="PB02" type="bidirectional"/>
+        <pin num="64" name="PB03" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="CP-Tolaemon">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="D-Tolaemon">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="F-Tolaemon">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="FT232RL-Tolaemon">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT232RL-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="bidirectional"/>
+        <pin num="2" name="DTR#" type="bidirectional"/>
+        <pin num="3" name="RTS#" type="bidirectional"/>
+        <pin num="4" name="VCCIO" type="bidirectional"/>
+        <pin num="5" name="RXD" type="bidirectional"/>
+        <pin num="6" name="RI#" type="bidirectional"/>
+        <pin num="7" name="GND" type="bidirectional"/>
+        <pin num="8" name="NC" type="bidirectional"/>
+        <pin num="9" name="DSR#" type="bidirectional"/>
+        <pin num="10" name="DCD#" type="bidirectional"/>
+        <pin num="11" name="CTS#" type="bidirectional"/>
+        <pin num="12" name="CBUS4" type="bidirectional"/>
+        <pin num="13" name="CBUS2" type="bidirectional"/>
+        <pin num="14" name="CBUS3" type="bidirectional"/>
+        <pin num="15" name="USBDP" type="bidirectional"/>
+        <pin num="16" name="USBDM" type="bidirectional"/>
+        <pin num="17" name="3V3OUT" type="bidirectional"/>
+        <pin num="18" name="GND" type="bidirectional"/>
+        <pin num="19" name="RESET#" type="bidirectional"/>
+        <pin num="20" name="VCC" type="bidirectional"/>
+        <pin num="21" name="GND" type="bidirectional"/>
+        <pin num="22" name="CBUS1" type="bidirectional"/>
+        <pin num="23" name="CBUS0" type="bidirectional"/>
+        <pin num="24" name="NC" type="bidirectional"/>
+        <pin num="25" name="AGND" type="bidirectional"/>
+        <pin num="26" name="TEST" type="bidirectional"/>
+        <pin num="27" name="OSCI" type="bidirectional"/>
+        <pin num="28" name="OSCO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="L-Tolaemon">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="LD-Tolaemon">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LD</field>
+        <field name="Value">LD-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="MountingHole-Tolaemon">
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole-Tolaemon</field>
+      </fields>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="PinStrip2x5-Tolaemon">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">PinStrip2x5-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="bidirectional"/>
+        <pin num="2" name="Pin_2" type="bidirectional"/>
+        <pin num="3" name="Pin_3" type="bidirectional"/>
+        <pin num="4" name="Pin_4" type="bidirectional"/>
+        <pin num="5" name="Pin_5" type="bidirectional"/>
+        <pin num="6" name="Pin_6" type="bidirectional"/>
+        <pin num="7" name="Pin_7" type="bidirectional"/>
+        <pin num="8" name="Pin_8" type="bidirectional"/>
+        <pin num="9" name="Pin_9" type="bidirectional"/>
+        <pin num="10" name="Pin_10" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="PinStrip30-Tolaemon">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">PinStrip30-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="bidirectional"/>
+        <pin num="2" name="Pin_2" type="bidirectional"/>
+        <pin num="3" name="Pin_3" type="bidirectional"/>
+        <pin num="4" name="Pin_4" type="bidirectional"/>
+        <pin num="5" name="Pin_5" type="bidirectional"/>
+        <pin num="6" name="Pin_6" type="bidirectional"/>
+        <pin num="7" name="Pin_7" type="bidirectional"/>
+        <pin num="8" name="Pin_8" type="bidirectional"/>
+        <pin num="9" name="Pin_9" type="bidirectional"/>
+        <pin num="10" name="Pin_10" type="bidirectional"/>
+        <pin num="11" name="Pin_11" type="bidirectional"/>
+        <pin num="12" name="Pin_12" type="bidirectional"/>
+        <pin num="13" name="Pin_13" type="bidirectional"/>
+        <pin num="14" name="Pin_14" type="bidirectional"/>
+        <pin num="15" name="Pin_15" type="bidirectional"/>
+        <pin num="16" name="Pin_16" type="bidirectional"/>
+        <pin num="17" name="Pin_17" type="bidirectional"/>
+        <pin num="18" name="Pin_18" type="bidirectional"/>
+        <pin num="19" name="Pin_19" type="bidirectional"/>
+        <pin num="20" name="Pin_20" type="bidirectional"/>
+        <pin num="21" name="Pin_21" type="bidirectional"/>
+        <pin num="22" name="Pin_22" type="bidirectional"/>
+        <pin num="23" name="Pin_23" type="bidirectional"/>
+        <pin num="24" name="Pin_24" type="bidirectional"/>
+        <pin num="25" name="Pin_25" type="bidirectional"/>
+        <pin num="26" name="Pin_26" type="bidirectional"/>
+        <pin num="27" name="Pin_27" type="bidirectional"/>
+        <pin num="28" name="Pin_28" type="bidirectional"/>
+        <pin num="29" name="Pin_29" type="bidirectional"/>
+        <pin num="30" name="Pin_30" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="PowerJack-Tolaemon">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">PowerJack-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="PushBSmall-Tolaemon">
+      <fields>
+        <field name="Reference">PB</field>
+        <field name="Value">PushBSmall-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="R-Tolaemon">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="SDCardScocket-Tolaemon">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">SDCardScocket-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SD_1_nCS" type="bidirectional"/>
+        <pin num="2" name="SD_2_DATA_IN" type="bidirectional"/>
+        <pin num="3" name="SD_6_3_GND" type="bidirectional"/>
+        <pin num="4" name="SD_4_VCC" type="bidirectional"/>
+        <pin num="5" name="SD_5_CLCK" type="bidirectional"/>
+        <pin num="6" name="SD_6_3_GND" type="bidirectional"/>
+        <pin num="7" name="SD_7_DATA_OUT" type="bidirectional"/>
+        <pin num="8" name="SD_8_DAT1" type="bidirectional"/>
+        <pin num="9" name="SD_9_DAT2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="USB_micro_B_female-Tolaemon">
+      <footprints>
+        <fp>USB*C*Plug*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_micro_B_female-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="bidirectional"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="bidirectional"/>
+        <pin num="5" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="BaseBoard-rescue" part="Xtal-Tolaemon">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Xtal-Tolaemon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BaseBoard-rescue">
+      <uri>C:\Proyectos\CasioRomPacks\DrivePACK\BaseBoard/BaseBoard-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GNDANA">
+      <node ref="CN2" pin="26" pinfunction="Pin_26" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="GNDANA" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/NRESET">
+      <node ref="C5" pin="1" pintype="bidirectional"/>
+      <node ref="CN3" pin="10" pinfunction="Pin_10" pintype="bidirectional"/>
+      <node ref="PB1" pin="2" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="52" pinfunction="RESETN" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/PA02">
+      <node ref="CN1" pin="3" pinfunction="Pin_3" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/PA03">
+      <node ref="CN1" pin="4" pinfunction="Pin_4" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/PA04">
+      <node ref="CN1" pin="5" pinfunction="Pin_5" pintype="bidirectional"/>
+      <node ref="CN4" pin="2" pinfunction="SD_2_DATA_IN" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/PA05">
+      <node ref="CN1" pin="6" pinfunction="Pin_6" pintype="bidirectional"/>
+      <node ref="CN4" pin="5" pinfunction="SD_5_CLCK" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/PA06">
+      <node ref="CN1" pin="7" pinfunction="Pin_7" pintype="bidirectional"/>
+      <node ref="CN4" pin="7" pinfunction="SD_7_DATA_OUT" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="15" pinfunction="PA06" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PA07">
+      <node ref="CN1" pin="8" pinfunction="Pin_8" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="PA07" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/PA08">
+      <node ref="CN1" pin="9" pinfunction="Pin_9" pintype="bidirectional"/>
+      <node ref="U2" pin="17" pinfunction="PA08" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PA09">
+      <node ref="CN1" pin="10" pinfunction="Pin_10" pintype="bidirectional"/>
+      <node ref="U2" pin="18" pinfunction="PA09" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PA10">
+      <node ref="CN1" pin="11" pinfunction="Pin_11" pintype="bidirectional"/>
+      <node ref="U2" pin="19" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/PA11">
+      <node ref="CN1" pin="12" pinfunction="Pin_12" pintype="bidirectional"/>
+      <node ref="U2" pin="20" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PA12">
+      <node ref="CN1" pin="13" pinfunction="Pin_13" pintype="bidirectional"/>
+      <node ref="U2" pin="29" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/PA13">
+      <node ref="CN1" pin="14" pinfunction="Pin_14" pintype="bidirectional"/>
+      <node ref="U2" pin="30" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/PA14">
+      <node ref="CN1" pin="15" pinfunction="Pin_15" pintype="bidirectional"/>
+      <node ref="U2" pin="31" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/PA15">
+      <node ref="CN1" pin="16" pinfunction="Pin_16" pintype="bidirectional"/>
+      <node ref="U2" pin="32" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/PA16">
+      <node ref="CN1" pin="17" pinfunction="Pin_17" pintype="bidirectional"/>
+      <node ref="U2" pin="35" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/PA17">
+      <node ref="CN1" pin="18" pinfunction="Pin_18" pintype="bidirectional"/>
+      <node ref="U2" pin="36" pinfunction="PA17" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/PA18">
+      <node ref="CN1" pin="19" pinfunction="Pin_19" pintype="bidirectional"/>
+      <node ref="U2" pin="37" pinfunction="PA18" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/PA19">
+      <node ref="CN1" pin="20" pinfunction="Pin_20" pintype="bidirectional"/>
+      <node ref="U2" pin="38" pinfunction="PA19" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/PA20">
+      <node ref="CN1" pin="21" pinfunction="Pin_21" pintype="bidirectional"/>
+      <node ref="CN4" pin="1" pinfunction="SD_1_nCS" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="41" pinfunction="PA20" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/PA21">
+      <node ref="CN1" pin="22" pinfunction="Pin_22" pintype="bidirectional"/>
+      <node ref="U2" pin="42" pinfunction="PA21" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/PA22">
+      <node ref="CN1" pin="23" pinfunction="Pin_23" pintype="bidirectional"/>
+      <node ref="U2" pin="43" pinfunction="PA22" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="RXD" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/PA23">
+      <node ref="CN1" pin="24" pinfunction="Pin_24" pintype="bidirectional"/>
+      <node ref="U2" pin="44" pinfunction="PA23" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="TXD" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/PA24">
+      <node ref="CN1" pin="25" pinfunction="Pin_25" pintype="bidirectional"/>
+      <node ref="U2" pin="45" pinfunction="PA24" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/PA25">
+      <node ref="CN1" pin="26" pinfunction="Pin_26" pintype="bidirectional"/>
+      <node ref="U2" pin="46" pinfunction="PA25" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/PA27">
+      <node ref="CN1" pin="27" pinfunction="Pin_27" pintype="bidirectional"/>
+      <node ref="U2" pin="51" pinfunction="PA27" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/PA30">
+      <node ref="CN1" pin="28" pinfunction="Pin_28" pintype="bidirectional"/>
+      <node ref="CN3" pin="4" pinfunction="Pin_4" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="57" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/PA31">
+      <node ref="CN2" pin="3" pinfunction="Pin_3" pintype="bidirectional"/>
+      <node ref="CN3" pin="2" pinfunction="Pin_2" pintype="bidirectional"/>
+      <node ref="U2" pin="58" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/PB00">
+      <node ref="CN2" pin="4" pinfunction="Pin_4" pintype="bidirectional"/>
+      <node ref="U2" pin="61" pinfunction="PB00" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/PB01">
+      <node ref="CN2" pin="5" pinfunction="Pin_5" pintype="bidirectional"/>
+      <node ref="U2" pin="62" pinfunction="PB01" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/PB02">
+      <node ref="CN2" pin="6" pinfunction="Pin_6" pintype="bidirectional"/>
+      <node ref="U2" pin="63" pinfunction="PB02" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/PB03">
+      <node ref="CN2" pin="7" pinfunction="Pin_7" pintype="bidirectional"/>
+      <node ref="U2" pin="64" pinfunction="PB03" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/PB04">
+      <node ref="CN2" pin="8" pinfunction="Pin_8" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="PB04" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/PB05">
+      <node ref="CN2" pin="9" pinfunction="Pin_9" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="PB05" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/PB06">
+      <node ref="CN2" pin="10" pinfunction="Pin_10" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="PB06" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/PB07">
+      <node ref="CN2" pin="11" pinfunction="Pin_11" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="PB07" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/PB08">
+      <node ref="CN2" pin="12" pinfunction="Pin_12" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="PB08" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/PB09">
+      <node ref="CN2" pin="13" pinfunction="Pin_13" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="PB09" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/PB10">
+      <node ref="CN2" pin="14" pinfunction="Pin_14" pintype="bidirectional"/>
+      <node ref="U2" pin="23" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/PB11">
+      <node ref="CN2" pin="15" pinfunction="Pin_15" pintype="bidirectional"/>
+      <node ref="U2" pin="24" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/PB12">
+      <node ref="CN2" pin="16" pinfunction="Pin_16" pintype="bidirectional"/>
+      <node ref="U2" pin="25" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/PB13">
+      <node ref="CN2" pin="17" pinfunction="Pin_17" pintype="bidirectional"/>
+      <node ref="U2" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/PB14">
+      <node ref="CN2" pin="18" pinfunction="Pin_18" pintype="bidirectional"/>
+      <node ref="U2" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/PB15">
+      <node ref="CN2" pin="19" pinfunction="Pin_19" pintype="bidirectional"/>
+      <node ref="U2" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/PB16">
+      <node ref="CN2" pin="20" pinfunction="Pin_20" pintype="bidirectional"/>
+      <node ref="U2" pin="39" pinfunction="PB16" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/PB17">
+      <node ref="CN2" pin="21" pinfunction="Pin_21" pintype="bidirectional"/>
+      <node ref="U2" pin="40" pinfunction="PB17" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/PB22">
+      <node ref="CN2" pin="22" pinfunction="Pin_22" pintype="bidirectional"/>
+      <node ref="U2" pin="49" pinfunction="PB22" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/PB23">
+      <node ref="CN2" pin="23" pinfunction="Pin_23" pintype="bidirectional"/>
+      <node ref="U2" pin="50" pinfunction="PB23" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/PB30">
+      <node ref="CN2" pin="24" pinfunction="Pin_24" pintype="bidirectional"/>
+      <node ref="CN3" pin="6" pinfunction="Pin_6" pintype="bidirectional"/>
+      <node ref="U2" pin="59" pinfunction="PB30" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/PB31">
+      <node ref="CN2" pin="25" pinfunction="Pin_25" pintype="bidirectional"/>
+      <node ref="U2" pin="60" pinfunction="PB31" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/VDDANA">
+      <node ref="CN2" pin="27" pinfunction="Pin_27" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="VDDANA" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/VDDCORE">
+      <node ref="C10" pin="1" pintype="bidirectional"/>
+      <node ref="C8" pin="1" pintype="bidirectional"/>
+      <node ref="C9" pin="1" pintype="bidirectional"/>
+      <node ref="L1" pin="1" pintype="bidirectional"/>
+      <node ref="U2" pin="53" pinfunction="VDDCORE" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/VSW">
+      <node ref="L1" pin="2" pintype="bidirectional"/>
+      <node ref="U2" pin="55" pinfunction="VSW" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/XTAL1">
+      <node ref="C6" pin="1" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/XTAL2">
+      <node ref="C7" pin="1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="GND">
+      <node ref="C1" pin="2" pintype="bidirectional"/>
+      <node ref="C10" pin="2" pintype="bidirectional"/>
+      <node ref="C11" pin="2" pintype="bidirectional"/>
+      <node ref="C12" pin="2" pintype="bidirectional"/>
+      <node ref="C13" pin="2" pintype="bidirectional"/>
+      <node ref="C14" pin="2" pintype="bidirectional"/>
+      <node ref="C2" pin="2" pintype="bidirectional"/>
+      <node ref="C3" pin="2" pintype="bidirectional"/>
+      <node ref="C4" pin="2" pintype="bidirectional"/>
+      <node ref="C5" pin="2" pintype="bidirectional"/>
+      <node ref="C6" pin="2" pintype="bidirectional"/>
+      <node ref="C7" pin="2" pintype="bidirectional"/>
+      <node ref="C8" pin="2" pintype="bidirectional"/>
+      <node ref="C9" pin="2" pintype="bidirectional"/>
+      <node ref="CN1" pin="29" pinfunction="Pin_29" pintype="bidirectional"/>
+      <node ref="CN1" pin="30" pinfunction="Pin_30" pintype="bidirectional"/>
+      <node ref="CN2" pin="29" pinfunction="Pin_29" pintype="bidirectional"/>
+      <node ref="CN2" pin="30" pinfunction="Pin_30" pintype="bidirectional"/>
+      <node ref="CN3" pin="3" pinfunction="Pin_3" pintype="bidirectional"/>
+      <node ref="CN3" pin="5" pinfunction="Pin_5" pintype="bidirectional"/>
+      <node ref="CN4" pin="3" pinfunction="SD_6_3_GND" pintype="bidirectional"/>
+      <node ref="CN4" pin="6" pinfunction="SD_6_3_GND" pintype="bidirectional"/>
+      <node ref="CN5" pin="2" pintype="bidirectional"/>
+      <node ref="P1" pin="5" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="PB1" pin="1" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="22" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="33" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="47" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="54" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="21" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="25" pinfunction="AGND" pintype="bidirectional"/>
+      <node ref="U3" pin="26" pinfunction="TEST" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="bidirectional"/>
+      <node ref="U3" pin="17" pinfunction="3V3OUT" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="Net-(CN5-Pad1)">
+      <node ref="CN5" pin="1" pintype="bidirectional"/>
+      <node ref="D2" pin="1" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="bidirectional"/>
+      <node ref="P1" pin="1" pinfunction="VCC" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="Net-(LD1-Pad2)">
+      <node ref="LD1" pin="2" pintype="bidirectional"/>
+      <node ref="R8" pin="1" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U3" pin="16" pinfunction="USBDM" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U3" pin="15" pinfunction="USBDP" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="bidirectional"/>
+      <node ref="U3" pin="19" pinfunction="RESET#" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="VCC3.3">
+      <node ref="C1" pin="1" pintype="bidirectional"/>
+      <node ref="C2" pin="1" pintype="bidirectional"/>
+      <node ref="C3" pin="1" pintype="bidirectional"/>
+      <node ref="C4" pin="1" pintype="bidirectional"/>
+      <node ref="CN1" pin="1" pinfunction="Pin_1" pintype="bidirectional"/>
+      <node ref="CN1" pin="2" pinfunction="Pin_2" pintype="bidirectional"/>
+      <node ref="CN3" pin="1" pinfunction="Pin_1" pintype="bidirectional"/>
+      <node ref="CN4" pin="4" pinfunction="SD_4_VCC" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="VOUT" pintype="bidirectional"/>
+      <node ref="U2" pin="21" pinfunction="VDDIOB" pintype="bidirectional"/>
+      <node ref="U2" pin="34" pinfunction="VDDIO" pintype="bidirectional"/>
+      <node ref="U2" pin="48" pinfunction="VDDIO" pintype="bidirectional"/>
+      <node ref="U2" pin="56" pinfunction="VDDIO" pintype="bidirectional"/>
+      <node ref="U3" pin="20" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="VCCIO" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="VCC5">
+      <node ref="C12" pin="1" pintype="bidirectional"/>
+      <node ref="C13" pin="1" pintype="bidirectional"/>
+      <node ref="C14" pin="1" pintype="bidirectional"/>
+      <node ref="CN2" pin="1" pinfunction="Pin_1" pintype="bidirectional"/>
+      <node ref="CN2" pin="2" pinfunction="Pin_2" pintype="bidirectional"/>
+      <node ref="D2" pin="2" pintype="bidirectional"/>
+      <node ref="F1" pin="2" pintype="bidirectional"/>
+      <node ref="LD1" pin="1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="VIN" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(CN2-Pad28)">
+      <node ref="CN2" pin="28" pinfunction="Pin_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(CN3-Pad7)">
+      <node ref="CN3" pin="7" pinfunction="Pin_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(CN3-Pad8)">
+      <node ref="CN3" pin="8" pinfunction="Pin_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(CN3-Pad9)">
+      <node ref="CN3" pin="9" pinfunction="Pin_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(CN4-Pad8)">
+      <node ref="CN4" pin="8" pinfunction="SD_8_DAT1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(CN4-Pad9)">
+      <node ref="CN4" pin="9" pinfunction="SD_9_DAT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(P1-Pad4)">
+      <node ref="P1" pin="4" pinfunction="ID" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="DTR#" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="RTS#" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="RI#" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="DSR#" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="DCD#" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="CTS#" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="CBUS4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="CBUS2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="CBUS1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad23)">
+      <node ref="U3" pin="23" pinfunction="CBUS0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="OSCI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U3-Pad28)">
+      <node ref="U3" pin="28" pinfunction="OSCO" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

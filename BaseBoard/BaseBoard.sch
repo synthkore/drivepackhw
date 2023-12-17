@@ -1,0 +1,1914 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5700 5800 6000 5800
+Wire Wire Line
+	6000 6900 5700 6900
+Wire Wire Line
+	5700 7000 6000 7000
+$Comp
+L BaseBoard-rescue:FT232RL-Tolaemon U3
+U 1 1 6162B6E3
+P 10925 1525
+F 0 "U3" H 10875 1800 50  0000 C CNN
+F 1 "FT232RL" H 10950 175 50  0000 C CNN
+F 2 "Tolaemon:SSOP-28_5.3x10.2mm_P0.65mm" H 10975 175 50  0001 C CNN
+F 3 "" H 10975 175 50  0001 C CNN
+	1    10925 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C?
+U 1 1 6162B701
+P 12075 3125
+AR Path="/61611A8C/6162B701" Ref="C?"  Part="1" 
+AR Path="/6162B701" Ref="C11"  Part="1" 
+F 0 "C11" H 12125 3225 50  0000 L CNN
+F 1 "0.1uF" H 12125 3000 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 12075 3125 50  0001 C CNN
+F 3 "~" H 12075 3125 50  0001 C CNN
+	1    12075 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12025 1225 12025 2225
+Wire Wire Line
+	11775 2125 11775 2425
+Wire Wire Line
+	11575 2125 11775 2125
+Wire Wire Line
+	11575 2225 12025 2225
+Wire Wire Line
+	11575 2425 11775 2425
+Wire Wire Line
+	10725 1725 10375 1725
+Wire Wire Line
+	10375 1725 10375 1225
+$Comp
+L BaseBoard-rescue:R-Tolaemon R4
+U 1 1 6162B715
+P 12575 2925
+F 0 "R4" H 12645 2971 50  0000 L CNN
+F 1 "4k7" H 12645 2880 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 12505 2925 50  0001 C CNN
+F 3 "~" H 12575 2925 50  0001 C CNN
+	1    12575 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:R-Tolaemon R5
+U 1 1 6162B71B
+P 12575 3275
+F 0 "R5" H 12645 3321 50  0000 L CNN
+F 1 "10K" H 12645 3230 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 12505 3275 50  0001 C CNN
+F 3 "~" H 12575 3275 50  0001 C CNN
+	1    12575 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11775 3475 11775 2425
+Connection ~ 11775 2425
+Wire Wire Line
+	10375 3525 10375 2025
+Wire Wire Line
+	10375 2025 10725 2025
+Wire Wire Line
+	12575 3075 12575 3125
+Wire Wire Line
+	12575 3075 12325 3075
+Wire Wire Line
+	12325 3075 12325 2325
+Wire Wire Line
+	12325 2325 11575 2325
+Connection ~ 12575 3075
+Wire Wire Line
+	12575 2525 12575 2775
+Wire Wire Line
+	12075 3475 12075 3275
+Wire Wire Line
+	12075 2975 12075 2525
+Wire Wire Line
+	12075 2525 11575 2525
+NoConn ~ 10725 1525
+NoConn ~ 10725 1625
+NoConn ~ 10725 1925
+NoConn ~ 10725 2125
+NoConn ~ 10725 2225
+NoConn ~ 10725 2325
+NoConn ~ 10725 2425
+NoConn ~ 10725 2525
+NoConn ~ 10725 2625
+NoConn ~ 10725 2725
+NoConn ~ 11575 1425
+NoConn ~ 11575 1525
+NoConn ~ 11575 1825
+NoConn ~ 11575 1925
+NoConn ~ 11575 2025
+Text Notes 9775 925  0    50   ~ 0
+USART to USB:\n
+Wire Wire Line
+	11775 2125 11775 1725
+Wire Wire Line
+	11775 1625 11575 1625
+Connection ~ 11775 2125
+Wire Wire Line
+	10725 1425 10125 1425
+Wire Wire Line
+	10725 1825 10125 1825
+Text Notes 2675 10975 0    50   ~ 0
+CasioROM Pack:\nPIN1  - !Data3    \nPIN2  - !Data2\nPIN3  - !Data1\nPIN4  - !Data0\nPIN5  - R/!W\nPIN6  - CLCK1\nPIN7  - CLCK2\nPIN8  - ?\nPIN9  - Gnd\nPIN10 - !CS\nPIN11 - Vcc\nSN74LVC4245A signals:  0 = OUTPUT (B 3.3V to A 5.0V ) , 1 = INPUT (A 5.0V to B 3.3V)\nIC2 PIN2 DIR_CTRL\nIC1 PIN2 DIR_DATA\n\nFT232RL:\nPIN 5-RXD\nPIN 1-TXD\n\n        SD\nMOSI - SD PIN2 DATA_IN\nSCK  - SD PIN5 SCK_IN\nMISO - SD PIN7 DATA_OUT\nnCS  - SD PIN1 nCS\n
+Text Notes 1875 10975 0    50   ~ 0
+Metro M4\n(6)    \n(5)    \n(4)    \n(7)    \n(A5)   \n(3)    \n(2)    \n(A0)   \n(GND)  \n(A4)   \n(5V)   \n\n(D11)   \n(D10)   \n\n\n*Tx>(1)\n*Rx<(0)\n\n\n(A3)\n(A1)\n(A2)\n(D9)
+Wire Wire Line
+	5700 6800 6000 6800
+Wire Wire Line
+	6000 5900 5700 5900
+Text Notes 825  10975 0    50   ~ 0
+ATSAMD51\nPB15    \nPB14    \nPB13    \nPB12    \nPB09    \nPB16    \nPB17    \nPA02    \n----    \nPB08    \n----    \n\nPA19\nPA18\n\nUSART signals:\nPA22\nPA23\n\nSPI-SD signals:\nPA04(SERCOM PAD0)\nPA05(SERCOM PAD1)\nPA06(SERCOM PAD2)\nPA20
+Wire Wire Line
+	13825 6875 13475 6875
+Wire Wire Line
+	13475 6875 13475 7375
+NoConn ~ 13825 6275
+NoConn ~ 13825 7075
+$Comp
+L BaseBoard-rescue:R-Tolaemon R9
+U 1 1 6162B79B
+P 13075 6075
+F 0 "R9" V 12975 6125 50  0000 L CNN
+F 1 "100K" V 12975 5875 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 13005 6075 50  0001 C CNN
+F 3 "~" H 13075 6075 50  0001 C CNN
+	1    13075 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:R-Tolaemon R7
+U 1 1 6162B7A1
+P 12875 6075
+F 0 "R7" V 12775 6125 50  0000 L CNN
+F 1 "100K" V 12775 5875 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 12805 6075 50  0001 C CNN
+F 3 "~" H 12875 6075 50  0001 C CNN
+	1    12875 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:R-Tolaemon R3
+U 1 1 6162B7A7
+P 12475 6075
+F 0 "R3" V 12375 6125 50  0000 L CNN
+F 1 "100K" V 12375 5875 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 12405 6075 50  0001 C CNN
+F 3 "~" H 12475 6075 50  0001 C CNN
+	1    12475 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12275 6375 13075 6375
+Wire Wire Line
+	12275 6475 12875 6475
+Wire Wire Line
+	13075 6225 13075 6375
+Connection ~ 13075 6375
+Wire Wire Line
+	13075 6375 13825 6375
+Wire Wire Line
+	12875 6225 12875 6475
+Connection ~ 12875 6475
+Wire Wire Line
+	12875 6475 13825 6475
+$Comp
+L BaseBoard-rescue:R-Tolaemon R6
+U 1 1 6162B7BD
+P 12675 6075
+F 0 "R6" V 12575 6125 50  0000 L CNN
+F 1 "100K" V 12575 5875 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 12605 6075 50  0001 C CNN
+F 3 "~" H 12675 6075 50  0001 C CNN
+	1    12675 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13325 5775 13075 5775
+Wire Wire Line
+	12475 5775 12475 5925
+Wire Wire Line
+	13075 5925 13075 5775
+Connection ~ 13075 5775
+Wire Wire Line
+	13075 5775 12875 5775
+Wire Wire Line
+	12875 5925 12875 5775
+Connection ~ 12875 5775
+Wire Wire Line
+	12875 5775 12675 5775
+Wire Wire Line
+	12675 5925 12675 5775
+Connection ~ 12675 5775
+Wire Wire Line
+	12675 5775 12475 5775
+Wire Wire Line
+	12875 5575 12875 5775
+Text Notes 5050 4500 0    50   ~ 0
+Do not use PB03: No se pq pero si \nutilizo PB03 como salida con el reloj\n a tope el micro se acaba colgando... ¿?
+$Comp
+L BaseBoard-rescue:Xtal-Tolaemon Y1
+U 1 1 61697915
+P 7975 1700
+F 0 "Y1" H 7875 1900 50  0000 C CNN
+F 1 "32.768" H 8125 1900 50  0000 C CNN
+F 2 "Tolaemon:SMD_XTAL_3.4x2.7max" H 7975 1700 50  0001 C CNN
+F 3 "~" H 7975 1700 50  0001 C CNN
+	1    7975 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C?
+U 1 1 616A18CD
+P 7750 1925
+AR Path="/61611A8C/616A18CD" Ref="C?"  Part="1" 
+AR Path="/616A18CD" Ref="C6"  Part="1" 
+F 0 "C6" H 7800 2025 50  0000 L CNN
+F 1 "22pF" H 7475 1800 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 7750 1925 50  0001 C CNN
+F 3 "~" H 7750 1925 50  0001 C CNN
+	1    7750 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C?
+U 1 1 616A45E6
+P 8175 1925
+AR Path="/61611A8C/616A45E6" Ref="C?"  Part="1" 
+AR Path="/616A45E6" Ref="C7"  Part="1" 
+F 0 "C7" H 8225 2025 50  0000 L CNN
+F 1 "22pF" H 8250 1800 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 8175 1925 50  0001 C CNN
+F 3 "~" H 8175 1925 50  0001 C CNN
+	1    8175 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 1775 8175 1700
+Wire Wire Line
+	8175 1700 8125 1700
+Wire Wire Line
+	7750 1775 7750 1700
+Wire Wire Line
+	7750 1700 7825 1700
+Wire Wire Line
+	7750 2075 7750 2175
+Wire Wire Line
+	7750 2175 7950 2175
+Wire Wire Line
+	8175 2175 8175 2075
+Wire Wire Line
+	7950 2225 7950 2175
+Connection ~ 7950 2175
+Wire Wire Line
+	7950 2175 8175 2175
+Wire Wire Line
+	8175 1700 8350 1700
+Connection ~ 8175 1700
+Wire Wire Line
+	7750 1700 7600 1700
+Connection ~ 7750 1700
+Wire Wire Line
+	6000 5600 5700 5600
+Wire Wire Line
+	5700 5700 6000 5700
+Wire Wire Line
+	14000 2925 13825 2925
+Wire Wire Line
+	13825 2925 13825 3525
+Wire Wire Line
+	2100 1900 2100 1550
+Wire Wire Line
+	3100 1875 3100 2100
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C1
+U 1 1 617C6FD7
+P 2125 2350
+F 0 "C1" H 2175 2450 50  0000 L CNN
+F 1 "0.1uF" H 1900 2225 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 2125 2350 50  0001 C CNN
+F 3 "~" H 2125 2350 50  0001 C CNN
+	1    2125 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C3
+U 1 1 617C8F37
+P 2650 2350
+F 0 "C3" H 2675 2450 50  0000 L CNN
+F 1 "0.1uF" H 2425 2225 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 2650 2350 50  0001 C CNN
+F 3 "~" H 2650 2350 50  0001 C CNN
+	1    2650 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C4
+U 1 1 617CD524
+P 2925 2350
+F 0 "C4" H 2950 2450 50  0000 L CNN
+F 1 "10uF" H 2725 2225 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 2925 2350 50  0001 C CNN
+F 3 "~" H 2925 2350 50  0001 C CNN
+	1    2925 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 2200 2125 2100
+Wire Wire Line
+	3100 2100 2925 2100
+Wire Wire Line
+	2650 2200 2650 2100
+Connection ~ 2650 2100
+Wire Wire Line
+	2925 2200 2925 2100
+Connection ~ 2925 2100
+Wire Wire Line
+	2925 2100 2650 2100
+Wire Wire Line
+	2125 2500 2125 2575
+Wire Wire Line
+	2375 2575 2525 2575
+Wire Wire Line
+	2925 2575 2925 2500
+Wire Wire Line
+	2650 2500 2650 2575
+Connection ~ 2650 2575
+Wire Wire Line
+	2650 2575 2925 2575
+Text Notes 975  1050 0    50   ~ 0
+5V to 3.3V conversion:\n
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C13
+U 1 1 61823377
+P 13875 1375
+F 0 "C13" H 13900 1475 50  0000 L CNN
+F 1 "10uF" H 13925 1250 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 13875 1375 50  0001 C CNN
+F 3 "~" H 13875 1375 50  0001 C CNN
+	1    13875 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C12
+U 1 1 6182337D
+P 13600 1375
+F 0 "C12" H 13625 1475 50  0000 L CNN
+F 1 "100uF" H 13625 1250 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 13600 1375 50  0001 C CNN
+F 3 "~" H 13600 1375 50  0001 C CNN
+	1    13600 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13875 1225 13875 1125
+Wire Wire Line
+	13600 1225 13600 1125
+Wire Wire Line
+	14150 1600 13875 1600
+Wire Wire Line
+	13600 1600 13600 1525
+Wire Wire Line
+	13875 1525 13875 1600
+Connection ~ 13875 1600
+Wire Wire Line
+	13875 1600 13600 1600
+Wire Wire Line
+	14150 1525 14150 1600
+Wire Wire Line
+	14150 1225 14150 1125
+Wire Wire Line
+	14150 1125 13875 1125
+Wire Wire Line
+	13600 1125 13875 1125
+Connection ~ 13875 1125
+Wire Wire Line
+	12575 3425 12575 3525
+$Comp
+L BaseBoard-rescue:F-Tolaemon F1
+U 1 1 617CAE8C
+P 13275 2525
+F 0 "F1" V 13175 2625 50  0000 C CNN
+F 1 "500ma" V 13175 2425 50  0000 C CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" V 13205 2525 50  0001 C CNN
+F 3 "~" H 13275 2525 50  0001 C CNN
+	1    13275 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L BaseBoard-rescue:D-Tolaemon D2
+U 1 1 617E9FB2
+P 15025 1200
+F 0 "D2" V 15125 1200 50  0000 C CNN
+F 1 "D" V 14950 1200 50  0000 C CNN
+F 2 "Tolaemon:D_SOD-123" V 14955 1200 50  0001 C CNN
+F 3 "~" H 15025 1200 50  0001 C CNN
+	1    15025 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15250 1400 14900 1400
+Wire Wire Line
+	14900 1400 14900 1675
+$Comp
+L BaseBoard-rescue:PinStrip30-Tolaemon CN1
+U 1 1 6186680D
+P 1125 5975
+F 0 "CN1" H 1150 6800 50  0000 C CNN
+F 1 "PinStrip30" H 1150 3575 50  0000 C CNN
+F 2 "Tolaemon:PinHeader_1x30_P2.54mm_Vertical" H 1025 6775 50  0001 C CNN
+F 3 "" H 1025 6775 50  0001 C CNN
+	1    1125 5975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:PinStrip30-Tolaemon CN2
+U 1 1 6186B770
+P 2900 5975
+F 0 "CN2" H 2925 6800 50  0000 C CNN
+F 1 "PinStrip30" H 2925 3575 50  0000 C CNN
+F 2 "Tolaemon:PinHeader_1x30_P2.54mm_Vertical" H 2800 6775 50  0001 C CNN
+F 3 "" H 2800 6775 50  0001 C CNN
+	1    2900 5975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:R-Tolaemon R8
+U 1 1 618B50B1
+P 12900 1400
+F 0 "R8" H 12970 1446 50  0000 L CNN
+F 1 "1K" H 12970 1355 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 12830 1400 50  0001 C CNN
+F 3 "~" H 12900 1400 50  0001 C CNN
+	1    12900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 1200 12900 1250
+Wire Wire Line
+	12900 1550 12900 1600
+$Comp
+L BaseBoard-rescue:R-Tolaemon R2
+U 1 1 618E8B91
+P 5875 1525
+F 0 "R2" H 5945 1571 50  0000 L CNN
+F 1 "10K" H 5945 1480 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 5805 1525 50  0001 C CNN
+F 3 "~" H 5875 1525 50  0001 C CNN
+	1    5875 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C5
+U 1 1 618F538B
+P 5875 1900
+F 0 "C5" H 5990 1946 50  0000 L CNN
+F 1 "0.1uF" H 5990 1855 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 5875 1900 50  0001 C CNN
+F 3 "~" H 5875 1900 50  0001 C CNN
+	1    5875 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 1675 5875 1700
+Connection ~ 5875 1700
+Wire Wire Line
+	5875 1700 5875 1750
+Wire Wire Line
+	5875 1700 6100 1700
+Wire Wire Line
+	5875 1700 5675 1700
+$Comp
+L BaseBoard-rescue:PushBSmall-Tolaemon PB1
+U 1 1 61970F58
+P 5500 1700
+F 0 "PB1" H 5475 1875 50  0000 C CNN
+F 1 "PushBSmall" H 5500 1625 50  0000 C CNN
+F 2 "Tolaemon:PushButton" H 5685 1755 50  0001 C CNN
+F 3 "" H 5685 1755 50  0001 C CNN
+	1    5500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 1700 5200 1700
+Wire Wire Line
+	5200 1700 5200 2075
+Wire Wire Line
+	7650 4900 7650 5250
+$Comp
+L BaseBoard-rescue:ATSAMD51J19-Tolaemon U2
+U 1 1 6162B50D
+P 7200 6350
+F 0 "U2" H 6050 7450 50  0000 L CNN
+F 1 "ATSAMD51J19" H 6950 6450 50  0000 L CNN
+F 2 "Tolaemon:TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm" H 5900 5250 50  0001 C CNN
+F 3 "" H 5900 5250 50  0001 C CNN
+	1    7200 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6000 5700 6000
+Wire Wire Line
+	5700 6100 6000 6100
+Wire Wire Line
+	6000 6200 5700 6200
+Wire Wire Line
+	6000 6300 5700 6300
+Wire Wire Line
+	6000 6400 5700 6400
+Wire Wire Line
+	6000 6500 5700 6500
+Wire Wire Line
+	5700 6600 6000 6600
+Wire Wire Line
+	5700 6700 6000 6700
+Wire Wire Line
+	6450 4900 6450 5250
+Wire Wire Line
+	6550 4900 6550 5250
+Wire Wire Line
+	6650 4900 6650 5250
+Wire Wire Line
+	6750 4900 6750 5250
+Wire Wire Line
+	6850 4900 6850 5250
+Wire Wire Line
+	6950 4900 6950 5250
+Wire Wire Line
+	7050 4900 7050 5250
+Wire Wire Line
+	7150 4900 7150 5250
+Wire Wire Line
+	7750 4900 7750 5250
+Wire Wire Line
+	7850 4900 7850 5250
+Wire Wire Line
+	7950 4900 7950 5250
+Wire Wire Line
+	8350 5800 8775 5800
+Wire Wire Line
+	8775 5900 8350 5900
+Wire Wire Line
+	8350 6400 8775 6400
+Wire Wire Line
+	8775 6500 8350 6500
+Wire Wire Line
+	8350 6600 8775 6600
+Wire Wire Line
+	8775 6700 8350 6700
+Wire Wire Line
+	8350 6800 8775 6800
+Wire Wire Line
+	8775 6900 8350 6900
+Wire Wire Line
+	8775 6200 8350 6200
+Wire Wire Line
+	6450 7675 6450 7450
+Wire Wire Line
+	6550 7450 6550 7675
+Wire Wire Line
+	6650 7450 6650 7675
+Wire Wire Line
+	6750 7450 6750 7675
+Wire Wire Line
+	7050 7450 7050 7675
+Wire Wire Line
+	7150 7450 7150 7675
+Wire Wire Line
+	7250 7450 7250 7675
+Wire Wire Line
+	7350 7450 7350 7675
+Wire Wire Line
+	7450 7450 7450 7675
+Wire Wire Line
+	7550 7450 7550 7675
+Wire Wire Line
+	7650 7450 7650 7675
+Wire Wire Line
+	7750 7450 7750 7675
+Wire Wire Line
+	7850 7450 7850 7675
+Wire Wire Line
+	7950 7450 7950 7675
+Wire Wire Line
+	6000 7100 5700 7100
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C2
+U 1 1 61987CA6
+P 2375 2350
+F 0 "C2" H 2400 2450 50  0000 L CNN
+F 1 "0.1uF" H 2150 2225 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 2375 2350 50  0001 C CNN
+F 3 "~" H 2375 2350 50  0001 C CNN
+	1    2375 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 2575 2375 2575
+Wire Wire Line
+	2375 2575 2375 2500
+Connection ~ 2375 2575
+Wire Wire Line
+	2375 2200 2375 2100
+Wire Wire Line
+	2650 2100 2375 2100
+Connection ~ 2375 2100
+Wire Wire Line
+	2375 2100 2125 2100
+Wire Wire Line
+	9175 5600 9175 5425
+Wire Wire Line
+	6950 7450 6950 8475
+Wire Wire Line
+	8350 7000 9200 7000
+Wire Wire Line
+	9200 7000 9200 6825
+Wire Wire Line
+	9575 9050 9275 9050
+Wire Wire Line
+	9575 9150 9275 9150
+Wire Wire Line
+	9275 9250 9575 9250
+Wire Wire Line
+	7250 3750 7250 5250
+Wire Wire Line
+	8775 6300 8350 6300
+Wire Wire Line
+	8350 6000 8775 6000
+Wire Wire Line
+	8775 6100 8350 6100
+Wire Wire Line
+	9275 8575 9450 8575
+Wire Wire Line
+	9450 8675 9275 8675
+Wire Wire Line
+	9575 8950 9275 8950
+Wire Wire Line
+	9200 7100 9200 7275
+Wire Wire Line
+	8350 7100 9200 7100
+Wire Wire Line
+	9175 5700 9175 5800
+Wire Wire Line
+	8350 5700 9175 5700
+Wire Wire Line
+	8350 5600 9175 5600
+Wire Wire Line
+	6850 8350 6550 8350
+Wire Wire Line
+	6850 7450 6850 8350
+Wire Wire Line
+	6550 8275 6550 8350
+Text Notes 8925 8300 0    50   ~ 0
+Board peripherals GPIO correspondence:
+Text Notes 8950 8450 0    50   ~ 0
+Serial USB:
+Text Notes 8950 8825 0    50   ~ 0
+SD Card:\n
+Wire Wire Line
+	1375 5325 1525 5325
+Wire Wire Line
+	1375 5425 1525 5425
+Wire Wire Line
+	1525 5425 1525 5325
+Wire Wire Line
+	1525 4775 1525 5325
+Connection ~ 1525 5325
+Wire Wire Line
+	1375 5525 1700 5525
+Wire Wire Line
+	1700 5625 1375 5625
+Wire Wire Line
+	1700 5725 1375 5725
+Wire Wire Line
+	1700 5825 1375 5825
+Wire Wire Line
+	1700 5925 1375 5925
+Wire Wire Line
+	1700 6025 1375 6025
+Wire Wire Line
+	1375 6125 1700 6125
+Wire Wire Line
+	1700 6225 1375 6225
+Wire Wire Line
+	1375 6325 1700 6325
+Wire Wire Line
+	1375 6425 1700 6425
+Wire Wire Line
+	1700 6525 1375 6525
+Wire Wire Line
+	1700 6625 1375 6625
+Wire Wire Line
+	1700 6725 1375 6725
+Wire Wire Line
+	1700 6825 1375 6825
+Wire Wire Line
+	1700 6925 1375 6925
+Wire Wire Line
+	1375 7025 1700 7025
+Wire Wire Line
+	1700 7125 1375 7125
+Wire Wire Line
+	1375 7225 1700 7225
+Wire Wire Line
+	1375 7325 1700 7325
+Wire Wire Line
+	1700 7425 1375 7425
+Wire Wire Line
+	1700 7525 1375 7525
+Wire Wire Line
+	1700 7625 1375 7625
+Wire Wire Line
+	1700 7725 1375 7725
+Wire Wire Line
+	1700 7825 1375 7825
+Wire Wire Line
+	1375 7925 1700 7925
+Wire Wire Line
+	1700 8025 1375 8025
+Wire Wire Line
+	3150 5525 3475 5525
+Wire Wire Line
+	3475 5625 3150 5625
+Wire Wire Line
+	3475 5725 3150 5725
+Wire Wire Line
+	3475 5825 3150 5825
+Wire Wire Line
+	3475 5925 3150 5925
+Wire Wire Line
+	3475 6025 3150 6025
+Wire Wire Line
+	3150 6125 3475 6125
+Wire Wire Line
+	3475 6225 3150 6225
+Wire Wire Line
+	3150 6325 3475 6325
+Wire Wire Line
+	3150 6425 3475 6425
+Wire Wire Line
+	3475 6525 3150 6525
+Wire Wire Line
+	3475 6625 3150 6625
+Wire Wire Line
+	3475 6725 3150 6725
+Wire Wire Line
+	3475 6825 3150 6825
+Wire Wire Line
+	3475 6925 3150 6925
+Wire Wire Line
+	3150 7025 3475 7025
+Wire Wire Line
+	3475 7125 3150 7125
+Wire Wire Line
+	3150 7225 3475 7225
+Wire Wire Line
+	3150 7325 3475 7325
+Wire Wire Line
+	3475 7425 3150 7425
+Wire Wire Line
+	3475 7525 3150 7525
+Wire Wire Line
+	3475 7625 3150 7625
+Wire Wire Line
+	3475 7725 3150 7725
+Wire Wire Line
+	3475 7825 3150 7825
+Wire Wire Line
+	3150 7925 3475 7925
+Wire Wire Line
+	3475 8025 3150 8025
+NoConn ~ 3475 8025
+Wire Wire Line
+	3475 8125 3150 8125
+Wire Wire Line
+	3150 8225 3475 8225
+Wire Wire Line
+	3475 8125 3475 8225
+Connection ~ 3475 8225
+Wire Wire Line
+	3475 8225 3475 8375
+Wire Wire Line
+	1700 8375 1700 8225
+Wire Wire Line
+	1700 8125 1375 8125
+Wire Wire Line
+	1375 8225 1700 8225
+Connection ~ 1700 8225
+Wire Wire Line
+	1700 8225 1700 8125
+Wire Wire Line
+	7450 5250 7450 3850
+Wire Wire Line
+	7550 4900 7550 5250
+Wire Wire Line
+	7350 4900 7350 5250
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C9
+U 1 1 6196D7F2
+P 8475 3050
+F 0 "C9" H 8500 3150 50  0000 L CNN
+F 1 "1uF" H 8325 2950 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 8475 3050 50  0001 C CNN
+F 3 "~" H 8475 3050 50  0001 C CNN
+	1    8475 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C8
+U 1 1 6196D7F8
+P 8200 3050
+F 0 "C8" H 8225 3150 50  0000 L CNN
+F 1 "0.1uF" H 7975 2950 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0805_2012Metric" H 8200 3050 50  0001 C CNN
+F 3 "~" H 8200 3050 50  0001 C CNN
+	1    8200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3275 8475 3275
+Wire Wire Line
+	8200 3275 8200 3200
+Wire Wire Line
+	8475 3200 8475 3275
+Connection ~ 8475 3275
+Wire Wire Line
+	8475 3275 8200 3275
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C10
+U 1 1 6196D80B
+P 8750 3050
+F 0 "C10" H 8775 3150 50  0000 L CNN
+F 1 "10uF" H 8575 2950 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 8750 3050 50  0001 C CNN
+F 3 "~" H 8750 3050 50  0001 C CNN
+	1    8750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3275 8750 3200
+Wire Wire Line
+	8750 2850 8750 2900
+Wire Wire Line
+	7750 2850 7875 2850
+$Comp
+L BaseBoard-rescue:L-Tolaemon L1
+U 1 1 61AF6DD1
+P 8025 2850
+F 0 "L1" H 7950 2975 50  0000 C CNN
+F 1 "10uH" H 8000 2775 50  0000 C CNN
+F 2 "Tolaemon:SMD_L_4018" H 8035 2920 50  0001 C CNN
+F 3 "~" V 8035 2850 50  0001 C CNN
+	1    8025 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 2850 8200 2850
+Wire Wire Line
+	8200 2900 8200 2850
+Connection ~ 8200 2850
+Wire Wire Line
+	8200 2850 8475 2850
+Wire Wire Line
+	8475 2900 8475 2850
+Connection ~ 8475 2850
+Wire Wire Line
+	8475 2850 8750 2850
+Wire Wire Line
+	8825 2850 8750 2850
+Connection ~ 8750 2850
+Text Notes 4875 975  0    50   ~ 0
+nRESET circuit:\n
+Text Notes 7200 1250 0    50   ~ 0
+XTAL:\n
+Text Notes 3925 2825 0    50   ~ 0
+Programming connector:\n
+Text Notes 11950 5525 0    50   ~ 0
+SD card:\n
+$Comp
+L BaseBoard-rescue:PinStrip2x5-Tolaemon CN3
+U 1 1 6247B7A6
+P 4275 3475
+F 0 "CN3" H 4050 3800 50  0000 C CNN
+F 1 "PinStrip2x5" H 4300 3050 50  0000 C CNN
+F 2 "Tolaemon:PinHeader_2x05_P2.54mm_Vertical" H 4050 3775 50  0001 C CNN
+F 3 "" H 4050 3775 50  0001 C CNN
+	1    4275 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3325 3550 3325
+Wire Wire Line
+	3550 3325 3550 3200
+NoConn ~ 3900 3625
+NoConn ~ 3900 3725
+Wire Wire Line
+	4675 3725 4825 3725
+NoConn ~ 4675 3625
+Wire Wire Line
+	4825 3325 4675 3325
+Wire Wire Line
+	5375 3425 5275 3425
+Wire Wire Line
+	4825 3525 4675 3525
+$Comp
+L BaseBoard-rescue:R-Tolaemon R1
+U 1 1 62701CE7
+P 5275 3175
+F 0 "R1" H 5345 3221 50  0000 L CNN
+F 1 "1K" H 5350 3100 50  0000 L CNN
+F 2 "Tolaemon:SMD_R_0805_2012Metric" V 5205 3175 50  0001 C CNN
+F 3 "~" H 5275 3175 50  0001 C CNN
+	1    5275 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 2925 5275 3025
+Wire Wire Line
+	5275 3325 5275 3425
+Connection ~ 5275 3425
+Wire Wire Line
+	5275 3425 4675 3425
+Wire Wire Line
+	9275 9500 9475 9500
+Wire Wire Line
+	9275 9600 9475 9600
+Wire Wire Line
+	9275 9700 9475 9700
+Text Notes 8950 9375 0    50   ~ 0
+SWD Iface:\n
+Wire Wire Line
+	11575 2725 14000 2725
+Wire Wire Line
+	11575 2625 14000 2625
+Wire Wire Line
+	13425 2525 14000 2525
+NoConn ~ 14000 2825
+$Comp
+L BaseBoard-rescue:USB_micro_B_female-Tolaemon P1
+U 1 1 61A2FDD2
+P 14375 2725
+F 0 "P1" H 14625 2350 50  0000 R CNN
+F 1 "USB_micro_B_female" H 14875 3100 50  0000 R CNN
+F 2 "Tolaemon:USB_Micro-B_Wuerth_629105150521" H 14449 2754 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 14449 2754 50  0001 C CNN
+	1    14375 2725
+	-1   0    0    -1  
+$EndComp
+Text Notes 1750 1400 0    50   ~ 0
+Checked!\n
+Text Notes 4875 1500 0    50   ~ 0
+Checked!\n
+Text Notes 7200 1450 0    50   ~ 0
+Checked!\n
+Text Notes 7600 2675 0    50   ~ 0
+Checked!\n
+Text Notes 4150 4100 0    50   ~ 0
+Checked!\n
+Text Notes 1975 5200 0    50   ~ 0
+Checked!\n
+Text Notes 8325 9200 0    50   ~ 0
+PA04  PAD0\nPA05  PAD1\nPA06  PAD2
+Text Notes 12650 7325 0    50   ~ 0
+Checked!\n
+Text Notes 8325 8675 0    50   ~ 0
+PA23  PAD1 \nPA22  PAD0
+Wire Wire Line
+	11575 1725 11775 1725
+Connection ~ 11775 1725
+Wire Wire Line
+	11775 1725 11775 1625
+Text Notes 11050 3150 0    50   ~ 0
+Checked!\n
+$Comp
+L BaseBoard-rescue:SDCardScocket-Tolaemon CN4
+U 1 1 61866C3A
+P 14425 6675
+F 0 "CN4" H 13975 7300 50  0000 L CNN
+F 1 "SDCardScocket" H 14225 6050 50  0000 L CNN
+F 2 "Tolaemon:SDCard_NoHoles" H 13975 7275 50  0001 C CNN
+F 3 "" H 13975 7275 50  0001 C CNN
+	1    14425 6675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12275 6975 12475 6975
+Wire Wire Line
+	13825 6575 13475 6575
+Wire Wire Line
+	13475 6575 13475 6875
+Connection ~ 13475 6875
+Wire Wire Line
+	13825 6675 13325 6675
+Wire Wire Line
+	13325 6675 13325 5775
+Wire Wire Line
+	12675 6225 12675 6775
+Wire Wire Line
+	12275 6775 12675 6775
+Connection ~ 12675 6775
+Wire Wire Line
+	12675 6775 13825 6775
+Wire Wire Line
+	12475 6225 12475 6975
+Connection ~ 12475 6975
+Wire Wire Line
+	12475 6975 13825 6975
+$Comp
+L BaseBoard-rescue:CP-Tolaemon C14
+U 1 1 61830377
+P 14150 1375
+F 0 "C14" H 14175 1475 50  0000 L CNN
+F 1 "1u" H 14200 1250 50  0000 L CNN
+F 2 "Tolaemon:SMD_C_0.5x0.5cm" H 14150 1375 50  0001 C CNN
+F 3 "~" H 14150 1375 50  0001 C CNN
+	1    14150 1375
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1275 1900
+Connection ~ 2125 2100
+Wire Wire Line
+	1275 2100 1075 2100
+Wire Wire Line
+	1075 2100 1075 1550
+Wire Wire Line
+	1075 1550 2100 1550
+Wire Wire Line
+	1275 2000 1175 2000
+Wire Wire Line
+	3900 3425 3550 3425
+Wire Wire Line
+	3550 3425 3550 3525
+Wire Wire Line
+	3900 3525 3550 3525
+Wire Wire Line
+	7600 3950 7600 3850
+Wire Wire Line
+	7600 3850 7450 3850
+Wire Wire Line
+	8475 3400 8475 3275
+Wire Wire Line
+	5875 2075 5875 2050
+Wire Wire Line
+	1175 2000 1175 2250
+Wire Wire Line
+	11775 3475 11925 3475
+Wire Wire Line
+	11925 3525 11925 3475
+Connection ~ 11925 3475
+Wire Wire Line
+	11925 3475 12075 3475
+Wire Wire Line
+	3550 3525 3550 3875
+Connection ~ 3550 3525
+Wire Wire Line
+	2525 2700 2525 2575
+Connection ~ 2525 2575
+Wire Wire Line
+	2525 2575 2650 2575
+Wire Wire Line
+	12575 2525 12900 2525
+Wire Wire Line
+	12900 2150 12900 2525
+Connection ~ 12900 2525
+Wire Wire Line
+	12900 2525 13125 2525
+Wire Wire Line
+	1950 2100 2125 2100
+Wire Wire Line
+	2100 1900 1950 1900
+Wire Wire Line
+	12900 875  12900 975 
+$Comp
+L BaseBoard-rescue:AP2112_R5A_SOT_89-5-Tolaemon U1
+U 1 1 6200A361
+P 1575 1975
+F 0 "U1" H 1425 2250 50  0000 C CNN
+F 1 "AP2112_R5A_SOT_89-5" H 1612 1701 50  0000 C CNN
+F 2 "Tolaemon:SOT-89-5_Handsoldering" H 1450 1650 50  0001 C CNN
+F 3 "" H 1450 1650 50  0001 C CNN
+	1    1575 1975
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13875 1675 13875 1600
+Wire Wire Line
+	13875 925  13875 1125
+Wire Wire Line
+	5875 1275 5875 1375
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0105
+U 1 1 62198E00
+P 5875 1275
+F 0 "#PWR0105" H 5875 1125 50  0001 C CNN
+F 1 "VCC5" H 5892 1448 50  0000 C CNN
+F 2 "" H 5875 1275 50  0001 C CNN
+F 3 "" H 5875 1275 50  0001 C CNN
+	1    5875 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 4775 3275 5325
+Wire Wire Line
+	3150 5325 3275 5325
+Connection ~ 3275 5325
+Wire Wire Line
+	3275 5325 3275 5425
+Wire Wire Line
+	3275 5425 3150 5425
+Text Label 1700 5525 0    50   ~ 0
+PA02
+Text Label 1700 5625 0    50   ~ 0
+PA03
+Text Label 1700 5725 0    50   ~ 0
+PA04
+Text Label 1700 5825 0    50   ~ 0
+PA05
+Text Label 1700 5925 0    50   ~ 0
+PA06
+Text Label 1700 6025 0    50   ~ 0
+PA07
+Text Label 1700 6125 0    50   ~ 0
+PA08
+Text Label 1700 6225 0    50   ~ 0
+PA09
+Text Label 1700 6325 0    50   ~ 0
+PA10
+Text Label 1700 6425 0    50   ~ 0
+PA11
+Text Label 1700 6525 0    50   ~ 0
+PA12
+Text Label 1700 6625 0    50   ~ 0
+PA13
+Text Label 1700 6725 0    50   ~ 0
+PA14
+Text Label 1700 6825 0    50   ~ 0
+PA15
+Text Label 1700 6925 0    50   ~ 0
+PA16
+Text Label 1700 7025 0    50   ~ 0
+PA17
+Text Label 1700 7125 0    50   ~ 0
+PA18
+Text Label 1700 7225 0    50   ~ 0
+PA19
+Text Label 1700 7325 0    50   ~ 0
+PA20
+Text Label 1700 7425 0    50   ~ 0
+PA21
+Text Label 1700 7525 0    50   ~ 0
+PA22
+Text Label 1700 7625 0    50   ~ 0
+PA23
+Text Label 1700 7725 0    50   ~ 0
+PA24
+Text Label 1700 7825 0    50   ~ 0
+PA25
+Text Label 1700 7925 0    50   ~ 0
+PA27
+Text Label 1700 8025 0    50   ~ 0
+PA30
+Text Label 3475 5525 0    50   ~ 0
+PA31
+Text Label 3475 5625 0    50   ~ 0
+PB00
+Text Label 3475 5725 0    50   ~ 0
+PB01
+Text Label 3475 5825 0    50   ~ 0
+PB02
+Text Label 3475 5925 0    50   ~ 0
+PB03
+Text Label 3475 6025 0    50   ~ 0
+PB04
+Text Label 3475 6125 0    50   ~ 0
+PB05
+Text Label 3475 6225 0    50   ~ 0
+PB06
+Text Label 3475 6325 0    50   ~ 0
+PB07
+Text Label 3475 6425 0    50   ~ 0
+PB08
+Text Label 3475 6525 0    50   ~ 0
+PB09
+Text Label 3475 6625 0    50   ~ 0
+PB10
+Text Label 3475 6725 0    50   ~ 0
+PB11
+Text Label 3475 6825 0    50   ~ 0
+PB12
+Text Label 3475 6925 0    50   ~ 0
+PB13
+Text Label 3475 7025 0    50   ~ 0
+PB14
+Text Label 3475 7125 0    50   ~ 0
+PB15
+Text Label 3475 7225 0    50   ~ 0
+PB16
+Text Label 3475 7325 0    50   ~ 0
+PB17
+Text Label 3475 7425 0    50   ~ 0
+PB22
+Text Label 3475 7525 0    50   ~ 0
+PB23
+Text Label 3475 7625 0    50   ~ 0
+PB30
+Text Label 3475 7725 0    50   ~ 0
+PB31
+Text Label 3475 7825 0    50   ~ 0
+GNDANA
+Text Label 3475 7925 0    50   ~ 0
+VDDANA
+Text Label 5700 5600 2    50   ~ 0
+XTAL1
+Text Label 5700 5700 2    50   ~ 0
+XTAL2
+Text Label 5700 5800 2    50   ~ 0
+PA02
+Text Label 5700 5900 2    50   ~ 0
+PA03
+Text Label 5700 6000 2    50   ~ 0
+PB04
+Text Label 5700 6100 2    50   ~ 0
+PB05
+Text Label 5700 6200 2    50   ~ 0
+GNDANA
+Text Label 5700 6300 2    50   ~ 0
+VDDANA
+Text Label 5700 6400 2    50   ~ 0
+PB06
+Text Label 5700 6500 2    50   ~ 0
+PB07
+Text Label 5700 6600 2    50   ~ 0
+PB08
+Text Label 5700 6700 2    50   ~ 0
+PB09
+Text Label 5700 6800 2    50   ~ 0
+PA04
+Text Label 5700 6900 2    50   ~ 0
+PA05
+Text Label 5700 7000 2    50   ~ 0
+PA06
+Text Label 5700 7100 2    50   ~ 0
+PA07
+Text Label 7050 7675 3    50   ~ 0
+PB10
+Text Label 7150 7675 3    50   ~ 0
+PB11
+Text Label 7250 7675 3    50   ~ 0
+PB12
+Text Label 7350 7675 3    50   ~ 0
+PB13
+Text Label 7450 7675 3    50   ~ 0
+PB14
+Text Label 7550 7675 3    50   ~ 0
+PB15
+Text Label 7650 7675 3    50   ~ 0
+PA12
+Text Label 7750 7675 3    50   ~ 0
+PA13
+Text Label 7850 7675 3    50   ~ 0
+PA14
+Text Label 7950 7675 3    50   ~ 0
+PA15
+Text Label 6450 7675 3    50   ~ 0
+PA08
+Text Label 6550 7675 3    50   ~ 0
+PA09
+Text Label 6650 7675 3    50   ~ 0
+PA10
+Text Label 6750 7675 3    50   ~ 0
+PA11
+Text Label 8775 5800 0    50   ~ 0
+PA25
+Text Label 8775 5900 0    50   ~ 0
+PA24
+Text Label 8775 6000 0    50   ~ 0
+PA23
+Text Label 8775 6100 0    50   ~ 0
+PA22
+Text Label 8775 6200 0    50   ~ 0
+PA21
+Text Label 8775 6300 0    50   ~ 0
+PA20
+Text Label 8775 6400 0    50   ~ 0
+PB17
+Text Label 8775 6500 0    50   ~ 0
+PB16
+Text Label 8775 6600 0    50   ~ 0
+PA19
+Text Label 8775 6700 0    50   ~ 0
+PA18
+Text Label 8775 6800 0    50   ~ 0
+PA17
+Text Label 8775 6900 0    50   ~ 0
+PA16
+Text Label 7150 4900 1    50   ~ 0
+PA30
+Text Label 7050 4900 1    50   ~ 0
+PA31
+Text Label 6950 4900 1    50   ~ 0
+PB30
+Text Label 6850 4900 1    50   ~ 0
+PB31
+Text Label 6750 4900 1    50   ~ 0
+PB00
+Text Label 6650 4900 1    50   ~ 0
+PB01
+Text Label 6550 4900 1    50   ~ 0
+PB02
+Text Label 6450 4900 1    50   ~ 0
+PB03
+Text Label 7850 4900 1    50   ~ 0
+PB23
+Text Label 7750 4900 1    50   ~ 0
+PA27
+Text Label 7650 4900 1    50   ~ 0
+NRESET
+Text Label 7550 4900 1    50   ~ 0
+VDDCORE
+Text Label 7950 4900 1    50   ~ 0
+PB22
+Text Label 7350 4900 1    50   ~ 0
+VSW
+Text Label 7750 2850 2    50   ~ 0
+VSW
+Text Label 8825 2850 0    50   ~ 0
+VDDCORE
+Text Label 9275 8575 2    50   ~ 0
+PA23
+Text Label 9275 8675 2    50   ~ 0
+PA22
+Text Label 9275 8950 2    50   ~ 0
+PA20
+Text Label 9275 9050 2    50   ~ 0
+PA04
+Text Label 9275 9150 2    50   ~ 0
+PA05
+Text Label 9275 9250 2    50   ~ 0
+PA06
+Text Label 9275 9500 2    50   ~ 0
+PA31
+Text Label 9275 9600 2    50   ~ 0
+PA30
+Text Label 9275 9700 2    50   ~ 0
+PB30
+Text Label 7600 1700 2    50   ~ 0
+XTAL1
+Text Label 8350 1700 0    50   ~ 0
+XTAL2
+Text Label 9450 8575 0    50   ~ 0
+SERIAL_USB_IN
+Text Label 9450 8675 0    50   ~ 0
+SERIAL_USB_OUT
+Text Label 9575 8950 0    50   ~ 0
+SPI_SD_nCS
+Text Label 9575 9050 0    50   ~ 0
+SPI_SD_MOSI
+Text Label 9575 9150 0    50   ~ 0
+SPI_SD_SCK
+Text Label 9575 9250 0    50   ~ 0
+SPI_SD_MISO
+Text Label 9475 9500 0    50   ~ 0
+SWDIO
+Text Label 9475 9600 0    50   ~ 0
+SWCLK
+Text Label 9475 9700 0    50   ~ 0
+SWO
+Text Label 12275 6375 2    50   ~ 0
+SPI_SD_nCS
+Text Label 12275 6475 2    50   ~ 0
+SPI_SD_MOSI
+Text Label 12275 6775 2    50   ~ 0
+SPI_SD_SCK
+Text Label 12275 6975 2    50   ~ 0
+SPI_SD_MISO
+Text Label 4825 3325 0    50   ~ 0
+SWDIO
+Text Label 5375 3425 0    50   ~ 0
+SWCLK
+Text Label 4825 3525 0    50   ~ 0
+SWO
+Text Label 4825 3725 0    50   ~ 0
+NRESET
+Text Label 10125 1425 2    50   ~ 0
+SERIAL_USB_IN
+Text Label 10125 1825 2    50   ~ 0
+SERIAL_USB_OUT
+Text Label 6100 1700 0    50   ~ 0
+NRESET
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0104
+U 1 1 62A06BE5
+P 1075 1450
+F 0 "#PWR0104" H 1075 1300 50  0001 C CNN
+F 1 "VCC5" H 1092 1623 50  0000 C CNN
+F 2 "" H 1075 1450 50  0001 C CNN
+F 3 "" H 1075 1450 50  0001 C CNN
+	1    1075 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 1450 1075 1550
+Connection ~ 1075 1550
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0106
+U 1 1 62A233D2
+P 3275 4775
+F 0 "#PWR0106" H 3275 4625 50  0001 C CNN
+F 1 "VCC5" H 3292 4948 50  0000 C CNN
+F 2 "" H 3275 4775 50  0001 C CNN
+F 3 "" H 3275 4775 50  0001 C CNN
+	1    3275 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0107
+U 1 1 62A2615B
+P 12900 875
+F 0 "#PWR0107" H 12900 725 50  0001 C CNN
+F 1 "VCC5" H 12917 1048 50  0000 C CNN
+F 2 "" H 12900 875 50  0001 C CNN
+F 3 "" H 12900 875 50  0001 C CNN
+	1    12900 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0108
+U 1 1 62A42E15
+P 13875 925
+F 0 "#PWR0108" H 13875 775 50  0001 C CNN
+F 1 "VCC5" H 13892 1098 50  0000 C CNN
+F 2 "" H 13875 925 50  0001 C CNN
+F 3 "" H 13875 925 50  0001 C CNN
+	1    13875 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0109
+U 1 1 62A43725
+P 14900 925
+F 0 "#PWR0109" H 14900 775 50  0001 C CNN
+F 1 "VCC5" H 14917 1098 50  0000 C CNN
+F 2 "" H 14900 925 50  0001 C CNN
+F 3 "" H 14900 925 50  0001 C CNN
+	1    14900 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC5-Tolaemon #PWR0110
+U 1 1 62A447AD
+P 12900 2150
+F 0 "#PWR0110" H 12900 2000 50  0001 C CNN
+F 1 "VCC5" H 12917 2323 50  0000 C CNN
+F 2 "" H 12900 2150 50  0001 C CNN
+F 3 "" H 12900 2150 50  0001 C CNN
+	1    12900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0111
+U 1 1 62ACFF8E
+P 12875 5575
+F 0 "#PWR0111" H 12875 5425 50  0001 C CNN
+F 1 "VCC3.3" H 12892 5748 50  0000 C CNN
+F 2 "" H 12875 5575 50  0001 C CNN
+F 3 "" H 12875 5575 50  0001 C CNN
+	1    12875 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0112
+U 1 1 62AD0972
+P 7250 3750
+F 0 "#PWR0112" H 7250 3600 50  0001 C CNN
+F 1 "VCC3.3" H 7267 3923 50  0000 C CNN
+F 2 "" H 7250 3750 50  0001 C CNN
+F 3 "" H 7250 3750 50  0001 C CNN
+	1    7250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0113
+U 1 1 62AED3F6
+P 6550 8275
+F 0 "#PWR0113" H 6550 8125 50  0001 C CNN
+F 1 "VCC3.3" H 6567 8448 50  0000 C CNN
+F 2 "" H 6550 8275 50  0001 C CNN
+F 3 "" H 6550 8275 50  0001 C CNN
+	1    6550 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0114
+U 1 1 62B0950C
+P 1525 4775
+F 0 "#PWR0114" H 1525 4625 50  0001 C CNN
+F 1 "VCC3.3" H 1542 4948 50  0000 C CNN
+F 2 "" H 1525 4775 50  0001 C CNN
+F 3 "" H 1525 4775 50  0001 C CNN
+	1    1525 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0115
+U 1 1 62B2560F
+P 3100 1875
+F 0 "#PWR0115" H 3100 1725 50  0001 C CNN
+F 1 "VCC3.3" H 3117 2048 50  0000 C CNN
+F 2 "" H 3100 1875 50  0001 C CNN
+F 3 "" H 3100 1875 50  0001 C CNN
+	1    3100 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0116
+U 1 1 62B25DDB
+P 10375 1225
+F 0 "#PWR0116" H 10375 1075 50  0001 C CNN
+F 1 "VCC3.3" H 10392 1398 50  0000 C CNN
+F 2 "" H 10375 1225 50  0001 C CNN
+F 3 "" H 10375 1225 50  0001 C CNN
+	1    10375 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0117
+U 1 1 62B267AB
+P 12025 1225
+F 0 "#PWR0117" H 12025 1075 50  0001 C CNN
+F 1 "VCC3.3" H 12042 1398 50  0000 C CNN
+F 2 "" H 12025 1225 50  0001 C CNN
+F 3 "" H 12025 1225 50  0001 C CNN
+	1    12025 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0118
+U 1 1 62B2707E
+P 5275 2925
+F 0 "#PWR0118" H 5275 2775 50  0001 C CNN
+F 1 "VCC3.3" H 5292 3098 50  0000 C CNN
+F 2 "" H 5275 2925 50  0001 C CNN
+F 3 "" H 5275 2925 50  0001 C CNN
+	1    5275 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0119
+U 1 1 62B27AFB
+P 3550 3200
+F 0 "#PWR0119" H 3550 3050 50  0001 C CNN
+F 1 "VCC3.3" H 3567 3373 50  0000 C CNN
+F 2 "" H 3550 3200 50  0001 C CNN
+F 3 "" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0120
+U 1 1 62B2849C
+P 9175 5425
+F 0 "#PWR0120" H 9175 5275 50  0001 C CNN
+F 1 "VCC3.3" H 9192 5598 50  0000 C CNN
+F 2 "" H 9175 5425 50  0001 C CNN
+F 3 "" H 9175 5425 50  0001 C CNN
+	1    9175 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:VCC3.3-Tolaemon #PWR0121
+U 1 1 62B28DC6
+P 9200 6825
+F 0 "#PWR0121" H 9200 6675 50  0001 C CNN
+F 1 "VCC3.3" H 9217 6998 50  0000 C CNN
+F 2 "" H 9200 6825 50  0001 C CNN
+F 3 "" H 9200 6825 50  0001 C CNN
+	1    9200 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0101
+U 1 1 62B849DB
+P 1175 2250
+F 0 "#PWR0101" H 1175 2000 50  0001 C CNN
+F 1 "GND" H 1180 2077 50  0000 C CNN
+F 2 "" H 1175 2250 50  0001 C CNN
+F 3 "" H 1175 2250 50  0001 C CNN
+	1    1175 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0102
+U 1 1 62B8617F
+P 2525 2700
+F 0 "#PWR0102" H 2525 2450 50  0001 C CNN
+F 1 "GND" H 2530 2527 50  0000 C CNN
+F 2 "" H 2525 2700 50  0001 C CNN
+F 3 "" H 2525 2700 50  0001 C CNN
+	1    2525 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0103
+U 1 1 62BA1C63
+P 3550 3875
+F 0 "#PWR0103" H 3550 3625 50  0001 C CNN
+F 1 "GND" H 3555 3702 50  0000 C CNN
+F 2 "" H 3550 3875 50  0001 C CNN
+F 3 "" H 3550 3875 50  0001 C CNN
+	1    3550 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0122
+U 1 1 62BBD626
+P 5200 2075
+F 0 "#PWR0122" H 5200 1825 50  0001 C CNN
+F 1 "GND" H 5205 1902 50  0000 C CNN
+F 2 "" H 5200 2075 50  0001 C CNN
+F 3 "" H 5200 2075 50  0001 C CNN
+	1    5200 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0123
+U 1 1 62BD8F4F
+P 5875 2075
+F 0 "#PWR0123" H 5875 1825 50  0001 C CNN
+F 1 "GND" H 5880 1902 50  0000 C CNN
+F 2 "" H 5875 2075 50  0001 C CNN
+F 3 "" H 5875 2075 50  0001 C CNN
+	1    5875 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0124
+U 1 1 62BF4933
+P 10375 3525
+F 0 "#PWR0124" H 10375 3275 50  0001 C CNN
+F 1 "GND" H 10380 3352 50  0000 C CNN
+F 2 "" H 10375 3525 50  0001 C CNN
+F 3 "" H 10375 3525 50  0001 C CNN
+	1    10375 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0125
+U 1 1 62C1026D
+P 8475 3400
+F 0 "#PWR0125" H 8475 3150 50  0001 C CNN
+F 1 "GND" H 8480 3227 50  0000 C CNN
+F 2 "" H 8475 3400 50  0001 C CNN
+F 3 "" H 8475 3400 50  0001 C CNN
+	1    8475 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0126
+U 1 1 62C2BBAB
+P 7950 2225
+F 0 "#PWR0126" H 7950 1975 50  0001 C CNN
+F 1 "GND" H 7955 2052 50  0000 C CNN
+F 2 "" H 7950 2225 50  0001 C CNN
+F 3 "" H 7950 2225 50  0001 C CNN
+	1    7950 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0127
+U 1 1 62C474E0
+P 1700 8375
+F 0 "#PWR0127" H 1700 8125 50  0001 C CNN
+F 1 "GND" H 1705 8202 50  0000 C CNN
+F 2 "" H 1700 8375 50  0001 C CNN
+F 3 "" H 1700 8375 50  0001 C CNN
+	1    1700 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0128
+U 1 1 62C62E65
+P 3475 8375
+F 0 "#PWR0128" H 3475 8125 50  0001 C CNN
+F 1 "GND" H 3480 8202 50  0000 C CNN
+F 2 "" H 3475 8375 50  0001 C CNN
+F 3 "" H 3475 8375 50  0001 C CNN
+	1    3475 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0129
+U 1 1 62C7E730
+P 6950 8475
+F 0 "#PWR0129" H 6950 8225 50  0001 C CNN
+F 1 "GND" H 6955 8302 50  0000 C CNN
+F 2 "" H 6950 8475 50  0001 C CNN
+F 3 "" H 6950 8475 50  0001 C CNN
+	1    6950 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0130
+U 1 1 62C99F97
+P 13475 7375
+F 0 "#PWR0130" H 13475 7125 50  0001 C CNN
+F 1 "GND" H 13480 7202 50  0000 C CNN
+F 2 "" H 13475 7375 50  0001 C CNN
+F 3 "" H 13475 7375 50  0001 C CNN
+	1    13475 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0131
+U 1 1 62CB58F2
+P 11925 3525
+F 0 "#PWR0131" H 11925 3275 50  0001 C CNN
+F 1 "GND" H 11930 3352 50  0000 C CNN
+F 2 "" H 11925 3525 50  0001 C CNN
+F 3 "" H 11925 3525 50  0001 C CNN
+	1    11925 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0132
+U 1 1 62CD1264
+P 12575 3525
+F 0 "#PWR0132" H 12575 3275 50  0001 C CNN
+F 1 "GND" H 12580 3352 50  0000 C CNN
+F 2 "" H 12575 3525 50  0001 C CNN
+F 3 "" H 12575 3525 50  0001 C CNN
+	1    12575 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0133
+U 1 1 62CECB8A
+P 13825 3525
+F 0 "#PWR0133" H 13825 3275 50  0001 C CNN
+F 1 "GND" H 13830 3352 50  0000 C CNN
+F 2 "" H 13825 3525 50  0001 C CNN
+F 3 "" H 13825 3525 50  0001 C CNN
+	1    13825 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0134
+U 1 1 62D084F1
+P 12900 1600
+F 0 "#PWR0134" H 12900 1350 50  0001 C CNN
+F 1 "GND" H 12905 1427 50  0000 C CNN
+F 2 "" H 12900 1600 50  0001 C CNN
+F 3 "" H 12900 1600 50  0001 C CNN
+	1    12900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0135
+U 1 1 62D23E4B
+P 13875 1675
+F 0 "#PWR0135" H 13875 1425 50  0001 C CNN
+F 1 "GND" H 13880 1502 50  0000 C CNN
+F 2 "" H 13875 1675 50  0001 C CNN
+F 3 "" H 13875 1675 50  0001 C CNN
+	1    13875 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0139
+U 1 1 62D9278C
+P 7600 3950
+F 0 "#PWR0139" H 7600 3700 50  0001 C CNN
+F 1 "GND" H 7605 3777 50  0000 C CNN
+F 2 "" H 7600 3950 50  0001 C CNN
+F 3 "" H 7600 3950 50  0001 C CNN
+	1    7600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0136
+U 1 1 62E048CC
+P 14900 1675
+F 0 "#PWR0136" H 14900 1425 50  0001 C CNN
+F 1 "GND" H 14905 1502 50  0000 C CNN
+F 2 "" H 14900 1675 50  0001 C CNN
+F 3 "" H 14900 1675 50  0001 C CNN
+	1    14900 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0137
+U 1 1 62E2055F
+P 9175 5800
+F 0 "#PWR0137" H 9175 5550 50  0001 C CNN
+F 1 "GND" H 9180 5627 50  0000 C CNN
+F 2 "" H 9175 5800 50  0001 C CNN
+F 3 "" H 9175 5800 50  0001 C CNN
+	1    9175 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:GND-Tolaemon #PWR0138
+U 1 1 62E57894
+P 9200 7275
+F 0 "#PWR0138" H 9200 7025 50  0001 C CNN
+F 1 "GND" H 9205 7102 50  0000 C CNN
+F 2 "" H 9200 7275 50  0001 C CNN
+F 3 "" H 9200 7275 50  0001 C CNN
+	1    9200 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:LD-Tolaemon LD1
+U 1 1 61985245
+P 12900 1150
+F 0 "LD1" H 13008 1259 50  0000 L CNN
+F 1 "LED" H 13008 1168 50  0000 L CNN
+F 2 "Tolaemon:SMD_LD_0805_2012Metric" V 12830 1150 50  0001 C CNN
+F 3 "" H 12900 1150 50  0001 C CNN
+	1    12900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:PowerJack-Tolaemon CN5
+U 1 1 617B2343
+P 15550 1300
+F 0 "CN5" H 15725 1100 50  0000 R CNN
+F 1 "PowerJack" H 15750 1525 50  0000 R CNN
+F 2 "Tolaemon:PowerFemale" H 15550 1300 50  0001 C CNN
+F 3 "" H 15550 1300 50  0001 C CNN
+	1    15550 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14975 1200 14900 1200
+Wire Wire Line
+	14900 1200 14900 925 
+Wire Wire Line
+	15200 1200 15250 1200
+$Comp
+L BaseBoard-rescue:MountingHole-Tolaemon MH1
+U 1 1 619A5392
+P 14600 4400
+F 0 "MH1" H 14675 4446 50  0000 L CNN
+F 1 "MountingHole" H 14675 4355 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14600 4400 50  0001 C CNN
+F 3 "" H 14600 4400 50  0001 C CNN
+	1    14600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:MountingHole-Tolaemon MH2
+U 1 1 619A6482
+P 14600 4600
+F 0 "MH2" H 14675 4646 50  0000 L CNN
+F 1 "MountingHole" H 14675 4555 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14600 4600 50  0001 C CNN
+F 3 "" H 14600 4600 50  0001 C CNN
+	1    14600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:MountingHole-Tolaemon MH3
+U 1 1 619C194C
+P 14600 4800
+F 0 "MH3" H 14675 4846 50  0000 L CNN
+F 1 "MountingHole" H 14675 4755 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14600 4800 50  0001 C CNN
+F 3 "" H 14600 4800 50  0001 C CNN
+	1    14600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BaseBoard-rescue:MountingHole-Tolaemon MH4
+U 1 1 619DCDB4
+P 14600 5025
+F 0 "MH4" H 14675 5071 50  0000 L CNN
+F 1 "MountingHole" H 14675 4980 50  0000 L CNN
+F 2 "Tolaemon:MountingHole" H 14600 5025 50  0001 C CNN
+F 3 "" H 14600 5025 50  0001 C CNN
+	1    14600 5025
+	1    0    0    -1  
+$EndComp
+Text Notes 14375 4225 0    50   ~ 0
+Mounting holes:\n\n
+$EndSCHEMATC

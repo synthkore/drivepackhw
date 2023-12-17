@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Jumper
+D Jumper, normally open, small symbol
+K jumper link bridge NO
+F ~
+$ENDCMP
+#
+#End Doc Library
