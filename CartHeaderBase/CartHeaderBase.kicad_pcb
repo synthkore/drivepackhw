@@ -5,6 +5,15 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Cart header base board")
+    (date "2025-04-04")
+    (rev "0.0")
+    (company "Tolaemon")
+    (comment 1 "http://www.tolaemon.com/dpack/download.htm")
+    (comment 2 "Using this information implies accepting the conditions specified at:")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -356,6 +365,9 @@
   )
   (gr_text "www.tolaemon.com/dpack" (at 168.0972 120.2944) (layer "F.SilkS") (tstamp b24239d5-68dd-4c05-9920-a4435d893872)
     (effects (font (size 1.1 1.1) (thickness 0.2)))
+  )
+  (gr_text "To ensure it fits on the keyboard socket, use a PCB thickness of 1mm maximum ( 1mm recommended)." (at 156.22 81.11) (layer "Dwgs.User") (tstamp f2d6a060-c38b-4417-8574-950e9b8b7a80)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
 
   (group "" (id 32298dec-8dd6-48a6-91c0-de792069092c)
